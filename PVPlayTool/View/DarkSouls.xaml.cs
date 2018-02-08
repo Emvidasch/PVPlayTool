@@ -10,26 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PVPlayTool
+namespace PVPlayTool.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for DarkSouls.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DarkSouls : Window
     {
-        public MainWindow()
+        public DarkSouls()
         {
             InitializeComponent();
         }
 
-        private void btn_DarkSoulsClick(object sender, RoutedEventArgs e)
+        private void OnDarkSoulsClose(object sender, EventArgs e)
         {
-            View.DarkSouls darkSouls = new View.DarkSouls();
-            darkSouls.Show();
-            this.Hide();
+            App.Current.MainWindow.Show();
         }
     }
 }

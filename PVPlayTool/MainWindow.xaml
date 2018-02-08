@@ -9,7 +9,7 @@
         ResizeMode="NoResize"
         Title="PVPlayTool" Height="720" Width="1280">
     <Grid Background="#FF212121">
-        <Button x:Name="btn_DarkSouls" Content="" HorizontalAlignment="Left" Margin="60,240,0,0" VerticalAlignment="Top" Width="320" Height="180" Cursor="Hand">
+        <Button x:Name="btn_DarkSouls" Content="" HorizontalAlignment="Left" Margin="60,240,0,0" VerticalAlignment="Top" Width="320" Height="180" Cursor="Hand" Click="btn_DarkSoulsClick">
             <Button.Background>
                 <ImageBrush ImageSource="tex_DarkSouls.jpg" Stretch="Uniform"/>
             </Button.Background>
@@ -19,7 +19,7 @@
                 <ImageBrush ImageSource="tex_DarkSoulsII.jpg" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_DarkSoulsIII" Content="" Margin="0,246,60,0" VerticalAlignment="Top" Height="180" Cursor="Hand" HorizontalAlignment="Right" Width="320" Focusable="False">
+        <Button x:Name="btn_DarkSoulsIII" Content="" Margin="0,240,60,0" VerticalAlignment="Top" Height="180" Cursor="Hand" HorizontalAlignment="Right" Width="320" Focusable="False">
             <Button.Background>
                 <ImageBrush ImageSource="tex_DarkSoulsIII.jpg"/>
             </Button.Background>
