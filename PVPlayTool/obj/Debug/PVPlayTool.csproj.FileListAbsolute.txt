@@ -1,0 +1,15 @@
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\bin\Debug\PVPlayTool.exe.config
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\bin\Debug\PVPlayTool.exe
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\bin\Debug\PVPlayTool.pdb
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\MainWindow.g.cs
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\App.g.cs
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool_MarkupCompile.cache
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool_MarkupCompile.lref
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\MainWindow.baml
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.g.resources
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.Properties.Resources.resources
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.csproj.GenerateResource.Cache
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.csproj.CoreCompileInputs.cache
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.exe
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.pdb
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.csprojResolveAssemblyReference.cache
