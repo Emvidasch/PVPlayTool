@@ -9,20 +9,14 @@
         ResizeMode="NoResize"
         Title="PVPlayTool" Height="720" Width="1280">
     <Grid Background="#FF212121">
-        <Button x:Name="btn_DarkSouls" Content="" HorizontalAlignment="Left" Margin="60,240,0,0" VerticalAlignment="Top" Width="320" Height="180" Cursor="Hand" Click="btn_DarkSoulsClick">
-            <Button.Background>
-                <ImageBrush ImageSource="Assets/tex_DarkSouls.jpg" Stretch="Uniform"/>
-            </Button.Background>
+        <Button x:Name="btn_DarkSouls" HorizontalAlignment="Left" Margin="60,240,0,0" VerticalAlignment="Top" Width="320" Height="180" Cursor="Hand" Click="btn_DarkSoulsClick" Background="{x:Null}" Template="{DynamicResource ImageButton}">
+            <Image Height="180" Width="320" Source="Assets/tex_DarkSouls.jpg"/>
         </Button>
-        <Button x:Name="btn_DarkSoulsII" Content="" Margin="480,240,469,0" VerticalAlignment="Top" Height="180" Cursor="Hand" Width="320" Focusable="False" BorderBrush="#FF707070">
-            <Button.Background>
-                <ImageBrush ImageSource="Assets/tex_DarkSoulsII.jpg" Stretch="Uniform"/>
-            </Button.Background>
+        <Button x:Name="btn_DarkSoulsII" HorizontalAlignment="Left" Margin="477,240,0,0" VerticalAlignment="Top" Width="320" Height="180" Cursor="Hand" Click="btn_DarkSoulsClick" Background="{x:Null}" Template="{DynamicResource ImageButton}">
+            <Image Height="180" Width="320" Source="Assets/tex_DarkSoulsII.jpg"/>
         </Button>
-        <Button x:Name="btn_DarkSoulsIII" Content="" Margin="0,240,60,0" VerticalAlignment="Top" Height="180" Cursor="Hand" HorizontalAlignment="Right" Width="320" Focusable="False">
-            <Button.Background>
-                <ImageBrush ImageSource="Assets/tex_DarkSoulsIII.jpg"/>
-            </Button.Background>
+        <Button x:Name="btn_DarkSoulsIII" HorizontalAlignment="Left" Margin="895.5,240,0,0" VerticalAlignment="Top" Width="320" Height="180" Cursor="Hand" Click="btn_DarkSoulsClick" Background="{x:Null}" Template="{DynamicResource ImageButton}">
+            <Image Height="180" Width="320" Source="Assets/tex_DarkSoulsIII.jpg"/>
         </Button>
         <TextBlock x:Name="txt_Title" HorizontalAlignment="Center" Margin="0,29.117,0,0" TextWrapping="Wrap" Text="PVPlayTool" VerticalAlignment="Top" FontFamily="OptimusPrincepsSemiBold" Foreground="#FFCDCCCC" FontSize="72" Width="1274" TextAlignment="Center" TextDecorations="Underline"/>
         <TextBlock x:Name="txt_Name" Margin="0,653,10,0" TextWrapping="Wrap" Text="by Emvidasch" VerticalAlignment="Top" Foreground="#FFDEDEDE" TextAlignment="Center" FontSize="24" FontFamily="OptimusPrinceps" HorizontalAlignment="Right" Width="166"/>

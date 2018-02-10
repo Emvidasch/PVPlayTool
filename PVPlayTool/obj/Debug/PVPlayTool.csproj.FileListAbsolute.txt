@@ -15,3 +15,5 @@ C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.
 C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.csprojResolveAssemblyReference.cache
 C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls.g.cs
 C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls.baml
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\App.baml
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\PVPTDictionary.baml

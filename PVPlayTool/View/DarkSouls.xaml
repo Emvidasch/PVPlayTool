@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="PVPlayTool - Dark Souls" Height="720" Width="1280" Background="#FF212121" Closed="OnDarkSoulsClose">
     <Grid>
-        
+        <Button x:Name="btn_BuildEditor" Content="Button" HorizontalAlignment="Left" Height="94.5" Margin="1086.5,584.5,0,0" VerticalAlignment="Top" Width="175.5"/>
     </Grid>
 </Window>
