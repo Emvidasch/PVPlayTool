@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:PVPlayTool">
     <ControlTemplate x:Key="ImageButton" TargetType="{x:Type Button}">
-        <Border BorderBrush="White" BorderThickness="5,3,3,3" HorizontalAlignment="Stretch" Height="180" VerticalAlignment="Stretch" Width="320" CornerRadius="5">
+        <Border BorderBrush="White" BorderThickness="3" HorizontalAlignment="Stretch" Height="Auto" VerticalAlignment="Stretch" Width="Auto" CornerRadius="5">
             <VisualStateManager.VisualStateGroups>
                 <VisualStateGroup x:Name="CommonStates">
                     <VisualStateGroup.Transitions>

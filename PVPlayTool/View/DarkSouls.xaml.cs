@@ -19,6 +19,7 @@ namespace PVPlayTool.View
     /// </summary>
     public partial class DarkSouls : Window
     {
+        public bool EditorOpen = false;
         public DarkSouls()
         {
             InitializeComponent();
@@ -27,6 +28,16 @@ namespace PVPlayTool.View
         private void OnDarkSoulsClose(object sender, EventArgs e)
         {
             App.Current.MainWindow.Show();
+        }
+
+        private void btn_BuildEditor_Click(object sender, RoutedEventArgs e)
+        {
+            if(!EditorOpen)
+            {
+                DarkSouls_BuildEditor editor = new DarkSouls_BuildEditor(this);
+                EditorOpen = true;
+                editor.Show();
+            }
         }
     }
 }

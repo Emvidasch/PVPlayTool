@@ -23,6 +23,7 @@ namespace PVPlayTool
         public MainWindow()
         {
             InitializeComponent();
+            App.DaS_InitializeStartingClasses();
         }
 
         private void btn_DarkSoulsClick(object sender, RoutedEventArgs e)

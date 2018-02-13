@@ -60,6 +60,9 @@
     <Compile Include="View\DarkSouls.xaml.cs">
       <DependentUpon>DarkSouls.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\DarkSouls_BuildEditor.xaml.cs">
+      <DependentUpon>DarkSouls_BuildEditor.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -77,6 +80,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\DarkSouls.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DarkSouls_BuildEditor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -117,6 +124,12 @@
     <Resource Include="Assets\tex_DarkSouls.jpg" />
     <Resource Include="Assets\tex_DarkSoulsII.jpg" />
     <Resource Include="Assets\tex_DarkSoulsIII.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\tex_Labyrinth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\tex_BuildIcon.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
