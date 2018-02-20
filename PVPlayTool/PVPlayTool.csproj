@@ -57,6 +57,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\DaS_Build.cs" />
+    <Compile Include="Model\DaS_Curse.cs" />
+    <Compile Include="Model\DaS_Equipment.cs" />
+    <Compile Include="Model\DaS_Item.cs" />
+    <Compile Include="Model\DaS_Spell.cs" />
+    <Compile Include="Model\DaS_StartingClass.cs" />
+    <Compile Include="Model\Enum_Rarity.cs" />
     <Compile Include="View\DarkSouls.xaml.cs">
       <DependentUpon>DarkSouls.xaml</DependentUpon>
     </Compile>
@@ -115,7 +122,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
+    <Resource Include="Assets\tex_SaveIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\icon.ico" />
@@ -130,6 +137,23 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\tex_BuildIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\tex_DaS_Att.jpg" />
+    <Resource Include="Assets\tex_DaS_Dex.jpg" />
+    <Resource Include="Assets\tex_DaS_End.jpg" />
+    <Resource Include="Assets\tex_DaS_Fth.jpg" />
+    <Resource Include="Assets\tex_DaS_Int.jpg" />
+    <Resource Include="Assets\tex_DaS_Res.jpg" />
+    <Resource Include="Assets\tex_DaS_SL.jpg" />
+    <Resource Include="Assets\tex_DaS_Str.jpg" />
+    <Resource Include="Assets\tex_DaS_Vit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\tex_LoadIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\tex_RagsToRiches.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

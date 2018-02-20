@@ -12,6 +12,13 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Text.RegularExpressions;
+
+using PVPlayTool.Model;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
+using Microsoft.Win32;
+
 namespace PVPlayTool.View
 {
     /// <summary>
@@ -43,16 +50,28 @@ namespace PVPlayTool.View
             //Save parent window for opening/closing
             _parent = parent;
 
-            //Load Current build
-            LoadCurrentBuild();
+            //Load local build in App
+            LoadBuild(App.DaS_CurrentBuild);
         }
 
         //Load current build if one exists in App
-        private void LoadCurrentBuild()
+        private void LoadBuild(DaS_Build build)
         {
-            if(App.DaS_CurrentBuild != null)
+            if(build != null)
             {
-                SelectedStartingClass = App.DaS_CurrentBuild.StartingClass;
+                SelectedStartingClass = build.StartingClass;
+                _vitalityPoints = build.Vitality - SelectedStartingClass.Vitality;
+                _attunementPoints = build.Attunement - SelectedStartingClass.Attunement;
+                _endurancePoints = build.Endurance - SelectedStartingClass.Endurance;
+                _strengthPoints = build.Strength - SelectedStartingClass.Strength;
+                _dexterityPoints = build.Dexterity  - SelectedStartingClass.Dexterity;
+                _resistancePoints = build.Resistance - SelectedStartingClass.Resistance;
+                _intelligencePoints = build.Intelligence - SelectedStartingClass.Intelligence;
+                _faithPoints = build.Faith - SelectedStartingClass.Faith;
+
+                UpdateBaseStats();
+                UpdateStats();
+                SetStartingClass(SelectedStartingClass);
             }
         }
         //DropDownMenu
@@ -131,6 +150,42 @@ namespace PVPlayTool.View
             Txb_CurrentFaith.Text = (SelectedStartingClass.Faith + _faithPoints).ToString();
 
             UpdateSoulLevel();
+        }
+        private void SetStartingClass(DaS_StartingClass startClass)
+        {
+            switch(startClass.Name)
+            {
+                case "Warrior":
+                    Cbx_StartingClass.SelectedItem = Cbi_Warrior;
+                    break;
+                case "Knight":
+                    Cbx_StartingClass.SelectedItem = Cbi_Knight;
+                    break;
+                case "Wanderer":
+                    Cbx_StartingClass.SelectedItem = Cbi_Wanderer;
+                    break;
+                case "Hunter":
+                    Cbx_StartingClass.SelectedItem = Cbi_Hunter;
+                    break;
+                case "Thief":
+                    Cbx_StartingClass.SelectedItem = Cbi_Thief;
+                    break;
+                case "Bandit":
+                    Cbx_StartingClass.SelectedItem = Cbi_Bandit;
+                    break;
+                case "Sorcerer":
+                    Cbx_StartingClass.SelectedItem = Cbi_Sorcerer;
+                    break;
+                case "Pyromancer":
+                    Cbx_StartingClass.SelectedItem = Cbi_Pyromancer;
+                    break;
+                case "Cleric":
+                    Cbx_StartingClass.SelectedItem = Cbi_Cleric;
+                    break;
+                case "Deprived":
+                    Cbx_StartingClass.SelectedItem = Cbi_Deprived;
+                    break;
+            }
         }
 
         //Buttons
@@ -241,7 +296,7 @@ namespace PVPlayTool.View
         //Commit text in textbox
         private void Txb_Commit(object sender, RoutedEventArgs e)
         {
-            if (_isInitialized && SelectedStartingClass != null)
+            if (SelectedStartingClass != null)
             {
                 if (sender == Txb_CurrentVitality)
                 {
@@ -407,7 +462,7 @@ namespace PVPlayTool.View
             }
         }
 
-        // Save build when editor closes
+        // Save build locally when editor closes
         private void Editor_Closed(object sender, EventArgs e)
         {
             if(SelectedStartingClass != null)
@@ -425,6 +480,73 @@ namespace PVPlayTool.View
             }
             _parent.EditorOpen = false;
 
+        }
+
+        //Save Build to file
+        private void Btn_Save_Click(object sender, RoutedEventArgs e)
+        {
+            //Check if build is valid, else return error
+            if(SelectedStartingClass == null)
+            {
+                MessageBox.Show("Invalid Build. You must select a starting class.");
+                return;
+            }
+
+            //Create object to serialize
+            int vit = SelectedStartingClass.Vitality + _vitalityPoints;
+            int att = SelectedStartingClass.Attunement + _attunementPoints;
+            int end = SelectedStartingClass.Endurance + _endurancePoints;
+            int str = SelectedStartingClass.Strength + _strengthPoints;
+            int dex = SelectedStartingClass.Dexterity + _dexterityPoints;
+            int res = SelectedStartingClass.Resistance + _resistancePoints;
+            int intl = SelectedStartingClass.Intelligence + _intelligencePoints;
+            int fth = SelectedStartingClass.Faith + _faithPoints;
+
+            DaS_Build build = new DaS_Build(SelectedStartingClass,vit,att,end,str,dex,res,intl,fth);
+
+            //Create Binary formatter
+            IFormatter formatter = new BinaryFormatter();
+
+            //Open the SaveFileDIalog
+            SaveFileDialog saveDialog = new SaveFileDialog();
+            saveDialog.Filter = "DaS Build File (*.DaSBld) | *.DaSBld";
+            bool? result = saveDialog.ShowDialog();
+            if(result == true)
+            {
+                //Create Filestream
+                Stream stream = new FileStream(saveDialog.FileName,FileMode.Create, FileAccess.Write, FileShare.None);
+
+                //Serialize the object and store through FileStream
+                formatter.Serialize(stream, build);
+
+                //Close Stream
+                stream.Close();
+            }
+        }
+        private void Btn_Load_Click(object sender, RoutedEventArgs e)
+        {
+            //Create Formatter
+            IFormatter formatter = new BinaryFormatter();
+
+            //Open the LoadFile dialog
+            OpenFileDialog openDialog = new OpenFileDialog();
+            openDialog.Filter = "DaS Build File (*.DaSBld) | *.DaSBld";
+            bool? result = openDialog.ShowDialog();
+
+            if(result == true)
+            {
+                //Create FileStream
+                Stream stream = new FileStream(openDialog.FileName, FileMode.Open, FileAccess.Read, FileShare.Read);
+
+                //Read from the stream and save as object
+                DaS_Build build = (DaS_Build)formatter.Deserialize(stream);
+
+                //Close the stream
+                stream.Close();
+
+                //Load Build into the app
+                LoadBuild(build);
+            }
         }
     }
 }
