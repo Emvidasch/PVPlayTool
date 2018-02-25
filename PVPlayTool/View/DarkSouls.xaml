@@ -10,13 +10,13 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="29" Margin="1091.5,510,0,0" TextWrapping="Wrap" Text="Build Editor" VerticalAlignment="Top" Width="156.5" Foreground="#FFDEDEDE" TextAlignment="Center" FontSize="24" TextDecorations="{x:Null}" FontFamily="OptimusPrincepsSemiBold"/>
         <Button x:Name="btn_BuildEditor" HorizontalAlignment="Left" Height="128" Margin="1107.5,544,0,0" VerticalAlignment="Top" Width="128" Template="{DynamicResource ImageButton}" Cursor="Hand" Click="btn_BuildEditor_Click">
-            <Image Source="/PVPlayTool;component/Assets/tex_BuildIcon.jpg" Stretch="UniformToFill"/>
+            <Image Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_BuildIcon.jpg" Stretch="UniformToFill"/>
         </Button>
         <Button x:Name="btn_Labyrinth" HorizontalAlignment="Left" Height="320" Margin="30,10,0,0" VerticalAlignment="Top" Width="564" Template="{DynamicResource ImageButton}" Cursor="Hand" Background="#FF212121">
-            <Image Source="/PVPlayTool;component/Assets/tex_Labyrinth.jpg"/>
+            <Image Source="/PVPlayTool;component/Assets/Shared/tex_Labyrinth.jpg"/>
         </Button>
         <Button x:Name="btn_RagsToRiches" Height="320" Margin="0,10,30,0" VerticalAlignment="Top" Template="{DynamicResource ImageButton}" Cursor="Hand" Background="#FF212121" HorizontalAlignment="Right" Width="564">
-            <Image Source="/PVPlayTool;component/Assets/tex_RagsToRiches.jpg"/>
+            <Image Source="/PVPlayTool;component/Assets/Shared/tex_RagsToRiches.jpg"/>
         </Button>
     </Grid>
 </Window>

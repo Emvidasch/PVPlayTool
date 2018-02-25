@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+    <ApplicationIcon>Assets\Shared\icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -129,38 +129,43 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\tex_SaveIcon.png" />
+    <Resource Include="Assets\Shared\tex_SaveIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\icon.ico" />
+    <Resource Include="Assets\Shared\icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\tex_DarkSouls.jpg" />
-    <Resource Include="Assets\tex_DarkSoulsII.jpg" />
-    <Resource Include="Assets\tex_DarkSoulsIII.jpg" />
+    <Resource Include="Assets\Shared\tex_DarkSouls.jpg" />
+    <Resource Include="Assets\Shared\tex_DarkSoulsII.jpg" />
+    <Resource Include="Assets\Shared\tex_DarkSoulsIII.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\tex_Labyrinth.jpg" />
+    <Resource Include="Assets\Shared\tex_Labyrinth.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\tex_BuildIcon.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_BuildIcon.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\tex_DaS_Att.jpg" />
-    <Resource Include="Assets\tex_DaS_Dex.jpg" />
-    <Resource Include="Assets\tex_DaS_End.jpg" />
-    <Resource Include="Assets\tex_DaS_Fth.jpg" />
-    <Resource Include="Assets\tex_DaS_Int.jpg" />
-    <Resource Include="Assets\tex_DaS_Res.jpg" />
-    <Resource Include="Assets\tex_DaS_SL.jpg" />
-    <Resource Include="Assets\tex_DaS_Str.jpg" />
-    <Resource Include="Assets\tex_DaS_Vit.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_Att.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_Dex.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_End.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_Fth.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_Int.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_Res.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_SL.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_Str.jpg" />
+    <Resource Include="Assets\Dark Souls\Icons\tex_DaS_Vit.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\tex_LoadIcon.png" />
+    <Resource Include="Assets\Shared\tex_LoadIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\tex_RagsToRiches.jpg" />
+    <Resource Include="Assets\Shared\tex_RagsToRiches.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Dark Souls\Equipment\Armour\" />
+    <Folder Include="Assets\Dark Souls\Equipment\Weapons\" />
+    <Folder Include="Assets\Dark Souls\Items\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

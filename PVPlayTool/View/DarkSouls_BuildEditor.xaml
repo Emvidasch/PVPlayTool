@@ -67,21 +67,21 @@
         <Button x:Name="Btn_DownInt" Content="▼" HorizontalAlignment="Left" Height="25" Margin="425,500,0,0" VerticalAlignment="Top" Width="25" Cursor="Hand" FontSize="20" FontFamily="OptimusPrincepsSemiBold" Click="Btn_DecreaseStat_Click"/>
         <Button x:Name="Btn_DownFth" Content="▼" HorizontalAlignment="Left" Height="25" Margin="425,550,0,0" VerticalAlignment="Top" Width="25" Cursor="Hand" FontSize="20" FontFamily="OptimusPrincepsSemiBold" Click="Btn_DecreaseStat_Click"/>
         <TextBlock x:Name="Txt_BuildEditor" HorizontalAlignment="Left" Height="44.918" Margin="5.5,7.622,0,0" TextWrapping="Wrap" Text="Build Editor" VerticalAlignment="Top" Width="328.229" FontFamily="OptimusPrincepsSemiBold" TextDecorations="Underline" FontSize="36" Foreground="#FFDEDEDE"/>
-        <Image x:Name="Img_SL" HorizontalAlignment="Left" Height="28" Margin="10,150,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_SL.jpg"/>
-        <Image x:Name="Img_Vit" HorizontalAlignment="Left" Height="28" Margin="10,200,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_Vit.jpg"/>
-        <Image x:Name="Img_Att" HorizontalAlignment="Left" Height="28" Margin="10,247,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_Att.jpg"/>
-        <Image x:Name="Img_End" HorizontalAlignment="Left" Height="28" Margin="10,297,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_End.jpg"/>
-        <Image x:Name="Img_Str" HorizontalAlignment="Left" Height="28" Margin="10,347,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_Str.jpg"/>
-        <Image x:Name="Img_Dex" HorizontalAlignment="Left" Height="28" Margin="10,397,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_Dex.jpg"/>
-        <Image x:Name="Img_Res" HorizontalAlignment="Left" Height="28" Margin="10,447,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_Res.jpg"/>
-        <Image x:Name="Img_Int" HorizontalAlignment="Left" Height="28" Margin="10,497,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_Int.jpg"/>
-        <Image x:Name="Img_Fth" HorizontalAlignment="Left" Height="28" Margin="10,547,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/tex_DaS_Fth.jpg"/>
-        <Image x:Name="Img_BuildIcon" HorizontalAlignment="Left" Height="100" Margin="524,10,0,0" VerticalAlignment="Top" Width="100" Source="/PVPlayTool;component/Assets/tex_BuildIcon.jpg"/>
+        <Image x:Name="Img_SL" HorizontalAlignment="Left" Height="28" Margin="10,150,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_SL.jpg"/>
+        <Image x:Name="Img_Vit" HorizontalAlignment="Left" Height="28" Margin="10,200,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_Vit.jpg"/>
+        <Image x:Name="Img_Att" HorizontalAlignment="Left" Height="28" Margin="10,247,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_Att.jpg"/>
+        <Image x:Name="Img_End" HorizontalAlignment="Left" Height="28" Margin="10,297,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_End.jpg"/>
+        <Image x:Name="Img_Str" HorizontalAlignment="Left" Height="28" Margin="10,347,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_Str.jpg"/>
+        <Image x:Name="Img_Dex" HorizontalAlignment="Left" Height="28" Margin="10,397,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_Dex.jpg"/>
+        <Image x:Name="Img_Res" HorizontalAlignment="Left" Height="28" Margin="10,447,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_Res.jpg"/>
+        <Image x:Name="Img_Int" HorizontalAlignment="Left" Height="28" Margin="10,497,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_Int.jpg"/>
+        <Image x:Name="Img_Fth" HorizontalAlignment="Left" Height="28" Margin="10,547,0,0" VerticalAlignment="Top" Width="28" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_Fth.jpg"/>
+        <Image x:Name="Img_BuildIcon" HorizontalAlignment="Left" Height="100" Margin="524,10,0,0" VerticalAlignment="Top" Width="100" Source="/PVPlayTool;component/Assets/Dark Souls/Icons/tex_DaS_BuildIcon.jpg"/>
         <Button x:Name="btn_Save" Margin="549,123,0,0" VerticalAlignment="Top" Height="75" FontFamily="OptimusPrincepsSemiBold" Foreground="White" Cursor="Hand" BorderBrush="{x:Null}" Background="{x:Null}" Template="{DynamicResource ImageButton}" HorizontalAlignment="Left" Width="75" Click="Btn_Save_Click">
-            <Image x:Name="img_SaveIcon" Height="65" Width="65" Source="/PVPlayTool;component/Assets/tex_SaveIcon.png"/>
+            <Image x:Name="img_SaveIcon" Height="65" Width="65" Source="/PVPlayTool;component/Assets/Shared/tex_SaveIcon.png"/>
         </Button>
         <Button x:Name="btn_Load" Margin="549,247,0,0" VerticalAlignment="Top" Height="75" FontFamily="OptimusPrincepsSemiBold" Foreground="White" Cursor="Hand" BorderBrush="{x:Null}" Background="{x:Null}" Template="{DynamicResource ImageButton}" HorizontalAlignment="Left" Width="75" Click="Btn_Load_Click">
-            <Image x:Name="img_LoadIcon" Height="65" Width="65" Source="/PVPlayTool;component/Assets/tex_LoadIcon.png"/>
+            <Image x:Name="img_LoadIcon" Height="65" Width="65" Source="/PVPlayTool;component/Assets/Shared/tex_LoadIcon.png"/>
         </Button>
         <TextBlock x:Name="Txt_SaveBuild" Margin="545,203,0,0" TextWrapping="Wrap" Text="Save Build" VerticalAlignment="Top" FontFamily="OptimusPrincepsSemiBold" FontSize="14" Foreground="Gainsboro" TextAlignment="Center" Height="20" HorizontalAlignment="Left" Width="85"/>
         <TextBlock x:Name="Txt_LoadBuild" Margin="545,327,0,0" TextWrapping="Wrap" Text="Load Build" VerticalAlignment="Top" FontFamily="OptimusPrincepsSemiBold" FontSize="14" Foreground="Gainsboro" TextAlignment="Center" Height="20" HorizontalAlignment="Left" Width="85"/>
