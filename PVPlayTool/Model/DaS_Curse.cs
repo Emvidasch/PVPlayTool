@@ -9,8 +9,9 @@ namespace PVPlayTool.Model
     public class DaS_Curse
     {
         public string CurseName;
+        public string ImagePath;
         public string Description;
 
-        public Enum_Rarity Rarity;
+        public ERarity.Rarity Rarity;
     }
 }

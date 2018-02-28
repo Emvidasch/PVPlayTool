@@ -1,0 +1,19 @@
+﻿<Window x:Class="PVPlayTool.View.DarkSouls_RagsToRiches_Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PVPlayTool.View"
+        mc:Ignorable="d"
+        MinHeight="720"
+        MaxHeight="720"
+        MinWidth="1280"
+        MaxWidth="1280"
+        Title="PVPlayTool - DarkSouls - RagsToRiches - Help" Height="720" Width="1280" Background="#FF212121">
+    <Grid>
+        <TextBlock x:Name="txt_RagsToRiches" HorizontalAlignment="Left" Height="42" Margin="10,10,0,0" TextWrapping="Wrap" Text="Rags To Riches" VerticalAlignment="Top" Width="269" TextDecorations="Underline" FontFamily="OptimusPrincepsSemiBold" FontSize="36" TextAlignment="Center" Foreground="White"/>
+        <TextBlock x:Name="textBlock" Margin="10,57,10,173" TextWrapping="Wrap" Foreground="White" FontSize="20" FontFamily="OptimusPrinceps"><Run Text="Explanation" TextDecorations="Underline"/><LineBreak/><Run/><LineBreak/><Run Text="Rags to Riches is a PVP gamemode originally created by DreadedCone*. The idea is to start with humble, underpowered gear and earn more through randomized loot as you win fights. Likewise, losses are creatively punished with extra challenges, loss of equipment or other restrictions."/><LineBreak/><Run/><LineBreak/><Run Text="It's best to use a character that is &quot;muled&quot;, meaning it has at least one of each equipment item in the game, as well as maximum consumables. Store all items in the Bottomless Box except your starting gear."/><LineBreak/><Run/><LineBreak/><Run Text="Rules" TextDecorations="Underline"/><LineBreak/><Run TextDecorations="Underline"/><LineBreak/><Run Text="○&#x9; You may use any way to invade or be invaded infinitely (e.g. cracked red eye orb). you do not have to earn them.&#xD;&#xA;○&#x9; If you get invaded, you may only heal using Humanity, Elizabeth Mushrooms, Divine Blessings or Miracles. NO ESTUS!&#xD;&#xA;○&#x9; Click the deck of Reward cards in the upper right to draw your potential reward for the next fight. If you win, you may flip &#x9; them and take the rewards from your bottomless box. If you lose, you must draw a Curse Card as a penalty.&#xD;&#xA;○&#x9; Your starting equipment cannot break.&#xD;&#xA;○&#x9; If equipment breaks as part of a Curse Card, put it back in the Bottomless Box.&#xD;&#xA;○&#x9; You may not change equipment before drawing a &quot;Curse Card&quot;.&#xD;&#xA;○&#x9; If a fight ends with both you and the target dying, flip the reward cards and then draw a &quot;Curse Card&quot;.&#xD;&#xA;○&#x9; You do not start with a way to use Miracles, Pyromancy or Sorcery. You have to earn them as rewards."/></TextBlock>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,541,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="138" Width="1242" Foreground="White" FontSize="16"><Run Text="* DreadedCone (AKA Ty) is a Youtuber, Twitch Streamer, Artist and big Dark Souls fan. He created the original version of &quot;Rags to Riches&quot;, and was the main inspiration for this app. You can find him on:"/><LineBreak/><Run/><LineBreak/><Run Text="Twitter:" TextDecorations="Underline"/><Run Text="&#x9;&#x9;http://twitter.com/DreadedCone"/><LineBreak/><Run Text="Twitch:" TextDecorations="Underline"/><Run Text="&#x9;&#x9;http://www.twitch.tv/dreadedcone"/><LineBreak/><Run Text="Youtube:" TextDecorations="Underline"/><Run Text="&#x9;&#x9;http://www.youtube.com/user/DreadedCone"/></TextBlock>
+
+    </Grid>
+</Window>

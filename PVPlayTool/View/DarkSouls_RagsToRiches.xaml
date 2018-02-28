@@ -5,12 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PVPlayTool.View"
         mc:Ignorable="d"
-        Title="PVPlayTool - DarkSouls - RagsToRiches" Height="640" Width="1280" Background="#FF212121">
-    <Grid>
-        <TextBlock x:Name="Txt_RagsToRiches" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Rags To Riches" VerticalAlignment="Top" FontSize="36" FontFamily="OptimusPrincepsSemiBold" Foreground="#FFDEDEDE" TextDecorations="Underline"/>
-        <CheckBox x:Name="checkBox" Content="Use Build?" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="20" Cursor="Hand" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" Height="27" Width="123" ToolTip="" FontFamily="OptimusPrincepsSemiBold"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFDEDEDE" Height="165" Width="222"><Run Text="When enabled, the possible rewards are limited based on your stats in the build editor. This will take 2-handing into account for Strength requirements, and will not give Sorcery, Miracles or Pyromancy if you do not have the Attunement for it."/><LineBreak/><Run/><LineBreak/><Run Text="NOTE: Does not take your covenant into account. Deal with it."/></TextBlock>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="990,63,0,0" TextWrapping="Wrap" Text="Starting Character" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="20" Width="216" FontFamily="OptimusPrincepsSemiBold"/>
-
+        Title="DarkSouls_RagsToRiches" Height="1080" Width="1920" Background="#FF212121" Closed="OnRagsToRichesClosed">
+    <Grid x:Name="Grd_MainGrid">
+        <Button x:Name="Btn_TestCard" Content="Button" HorizontalAlignment="Left" Margin="1673,10,0,0" VerticalAlignment="Top" Width="229" Height="104" Click="Btn_CreateRewardCard_Click"/>
     </Grid>
 </Window>

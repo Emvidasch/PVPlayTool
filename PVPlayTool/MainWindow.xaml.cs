@@ -24,6 +24,7 @@ namespace PVPlayTool
         {
             InitializeComponent();
             App.DaS_InitializeStartingClasses();
+            this.WindowState = WindowState.Maximized;
         }
 
         private void btn_DarkSoulsClick(object sender, RoutedEventArgs e)

@@ -9,10 +9,12 @@ namespace PVPlayTool.Model
     public class DaS_Spell
     {
         public string SpellName;
+        public string ImagePath;
+
         public int IntReq;
         public int FaithReq;
         public int AttReq;
 
-        public Enum_Rarity Rarity;
+        public ERarity.Rarity Rarity;
     }
 }

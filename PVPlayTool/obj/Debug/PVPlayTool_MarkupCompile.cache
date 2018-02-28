@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\
+C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\
 PVPlayTool
 none
 false
 DEBUG;TRACE
-C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\App.xaml
-51403236662
+C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\App.xaml
+8-531524804
 
-19-1104356807
+2084897997
 131569487696
-MainWindow.xaml;PVPTDictionary.xaml;View\DarkSouls.xaml;View\DarkSouls_BuildEditor.xaml;View\DarkSouls_RagsToRiches.xaml;
+MainWindow.xaml;PVPTDictionary.xaml;View\DarkSouls.xaml;View\DarkSouls_BuildEditor.xaml;View\DarkSouls_RagsToRiches.xaml;View\DarkSouls_RagsToRiches_Help.xaml;View\DarkSouls_RagsToRiches_Intro.xaml;View\RewardCard.xaml;
 
-True
+False
 

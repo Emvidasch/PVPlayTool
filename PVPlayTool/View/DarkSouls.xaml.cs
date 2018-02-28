@@ -23,6 +23,7 @@ namespace PVPlayTool.View
         public DarkSouls()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized;
         }
 
         private void OnDarkSoulsClose(object sender, EventArgs e)
@@ -37,6 +38,20 @@ namespace PVPlayTool.View
                 DarkSouls_BuildEditor editor = new DarkSouls_BuildEditor(this);
                 EditorOpen = true;
                 editor.Show();
+            }
+        }
+
+        private void btn_RagsToRiches_Click(object sender, RoutedEventArgs e)
+        {
+            if(!EditorOpen)
+            {
+                DarkSouls_RagsToRiches_Intro intro = new DarkSouls_RagsToRiches_Intro(this);
+                intro.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Please close the Build Editor before proceeding.");
             }
         }
     }

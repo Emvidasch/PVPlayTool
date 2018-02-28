@@ -1,0 +1,47 @@
+﻿<Window x:Class="PVPlayTool.View.DarkSouls_RagsToRiches_Intro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PVPlayTool.View"
+        mc:Ignorable="d"
+        MinHeight="720"
+        MinWidth="1280"
+        MaxHeight="720"
+        MaxWidth="1280"
+        Title="PVPlayTool - DarkSouls - RagsToRiches Intro" Height="720" Width="1280" Background="#FF212121" Closed="OnRagsToRichesIntroClose">
+    <Grid>
+        <TextBlock x:Name="Txt_RagsToRiches" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Rags To Riches" VerticalAlignment="Top" FontSize="36" FontFamily="OptimusPrincepsSemiBold" Foreground="#FFDEDEDE" TextDecorations="Underline"/>
+        <CheckBox x:Name="ckb_UseBuild" Content="Use Build?" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="20" Cursor="Hand" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" Height="27" Width="123" ToolTip="" FontFamily="OptimusPrincepsSemiBold"/>
+        <TextBlock x:Name="txt_BuildExplanation" HorizontalAlignment="Left" Margin="10,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFDEDEDE" Height="278" Width="324" FontFamily="OptimusPrinceps" FontSize="16"><Run Text="When enabled, the possible rewards are limited based on your stats in the build editor. This will take 2-handing into account for Strength requirements, and will not give Sorcery, Miracles or Pyromancy if you do not have the Attunement for it."/><LineBreak/><Run/><LineBreak/><Run Text="NOTE: Does not take your covenant into account. Deal with it."/><LineBreak/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="txt_StartingEquipment" HorizontalAlignment="Left" Margin="450,63,0,0" TextWrapping="Wrap" Text="Starting Equipment" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="20" Width="216" FontFamily="OptimusPrincepsSemiBold" TextAlignment="Center" TextDecorations="Underline"/>
+        <Button x:Name="Btn_Start" HorizontalAlignment="Left" Margin="15,0,0,50" Width="320" FontFamily="OptimusPrincepsSemiBold" FontSize="24" Background="#7FDDDDDD" Click="Btn_StartRagsToRiches_Click" BorderBrush="White" BorderThickness="3" Template="{DynamicResource ImageButton}" Foreground="White" Height="180" VerticalAlignment="Bottom" Cursor="Hand">
+            <Image x:Name="img_Start" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/PVPlayTool;component/Assets/DarkSouls/Icons/tex_DaS_Start.png" Margin="3,0,0,0"/>
+        </Button>
+        <Image x:Name="img_HeadSlot" HorizontalAlignment="Left" Height="100" Margin="517,101,0,0" VerticalAlignment="Top" Width="86" Source="/PVPlayTool;component/Assets/Shared/tex_EquipmentSlot.png"/>
+        <Image x:Name="img_BodySlot" HorizontalAlignment="Left" Height="100" Margin="517,218,0,0" VerticalAlignment="Top" Width="86" Source="/PVPlayTool;component/Assets/Shared/tex_EquipmentSlot.png"/>
+        <Image x:Name="img_RightHandSlot" HorizontalAlignment="Left" Height="100" Margin="426,218,0,0" VerticalAlignment="Top" Width="86" Source="/PVPlayTool;component/Assets/Shared/tex_EquipmentSlot.png"/>
+        <Image x:Name="img_LeftHandSlot" HorizontalAlignment="Left" Height="100" Margin="608,218,0,0" VerticalAlignment="Top" Width="86" Source="/PVPlayTool;component/Assets/Shared/tex_EquipmentSlot.png"/>
+        <Image x:Name="img_FeetSlot" HorizontalAlignment="Left" Height="100" Margin="517,365,0,0" VerticalAlignment="Top" Width="86" Source="/PVPlayTool;component/Assets/Shared/tex_EquipmentSlot.png"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="img_Shield" HorizontalAlignment="Left" Height="80" Margin="616,227,0,0" VerticalAlignment="Top" Width="70" Source="/PVPlayTool;component/Assets/DarkSouls/Weapons/tex_DaS_PlankShield.png"/>
+        <Image x:Name="img_Armor" HorizontalAlignment="Left" Height="80" Margin="525,227,0,0" VerticalAlignment="Top" Width="70" Source="/PVPlayTool;component/Assets/DarkSouls/Armour/tex_DaS_HollowWarriorArmor.png"/>
+        <Image x:Name="img_Armor_Copy" HorizontalAlignment="Left" Height="80" Margin="525,376,0,0" VerticalAlignment="Top" Width="70" Source="/PVPlayTool;component/Assets/DarkSouls/Armour/tex_DaS_HollowWarriorWaistcloth.png"/>
+        <TextBlock x:Name="txt_weapon" HorizontalAlignment="Left" Margin="440,244,0,0" TextWrapping="Wrap" Text="Class Starting Weapon" VerticalAlignment="Top" Height="41" Width="60" FontFamily="OptimusPrincepsSemiBold" Foreground="White"/>
+        <TextBlock x:Name="txt_Armor" HorizontalAlignment="Left" Margin="529,319,0,0" TextWrapping="Wrap" Text="Hollow Warrior Armor" VerticalAlignment="Top" Height="41" Width="59" FontFamily="OptimusPrincepsSemiBold" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="txt_Legs" HorizontalAlignment="Left" Margin="518,470,0,0" TextWrapping="Wrap" Text="Hollow Warrior Waistcloth" VerticalAlignment="Top" Height="41" Width="84" FontFamily="OptimusPrincepsSemiBold" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="txt_Shield" HorizontalAlignment="Left" Margin="622,320,0,0" TextWrapping="Wrap" Text="Plank Shield" VerticalAlignment="Top" Height="29" Width="59" FontFamily="OptimusPrincepsSemiBold" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="txt_StartingItems" HorizontalAlignment="Left" Margin="894,62,0,0" TextWrapping="Wrap" Text="Starting Items" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="20" Width="216" FontFamily="OptimusPrincepsSemiBold" TextAlignment="Center" TextDecorations="Underline"/>
+        <TextBlock x:Name="txt_Humanity" HorizontalAlignment="Left" Margin="1000,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFDEDEDE" Height="21" Width="97" FontSize="16" FontFamily="OptimusPrinceps"><Run Text="Humanity x5"/><LineBreak/><LineBreak/><Run/></TextBlock>
+        <Image x:Name="img_Humanity" HorizontalAlignment="Left" Height="80" Margin="895,89,0,0" VerticalAlignment="Top" Width="70" Source="/PVPlayTool;component/Assets/DarkSouls/Items/tex_DaS_Humanity.png"/>
+        <TextBlock x:Name="txt_LloydsTalisman" HorizontalAlignment="Left" Margin="1000,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFDEDEDE" Height="21" Width="204" FontSize="16" Text="Lloyd's Talisman x10" FontFamily="OptimusPrinceps"/>
+        <Image x:Name="img_LloydsTalisman" HorizontalAlignment="Left" Height="80" Margin="895,175,0,0" VerticalAlignment="Top" Width="70" Source="/PVPlayTool;component/Assets/DarkSouls/Items/tex_DaS_LloydsTalisman.png"/>
+        <Image x:Name="img_Rings" HorizontalAlignment="Left" Height="80" Margin="895,278,0,0" VerticalAlignment="Top" Width="70" Source="/PVPlayTool;component/Assets/DarkSouls/Rings/tex_DaS_DarkmoonSeanceRing.png"/>
+        <TextBlock x:Name="txt_Rings" HorizontalAlignment="Left" Margin="1000,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFDEDEDE" Height="21" Width="204" FontSize="16" Text="Two rings of your choice" FontFamily="OptimusPrinceps"/>
+        <Button x:Name="Btn_Help" Margin="1159,0,0,50" FontFamily="OptimusPrincepsSemiBold" FontSize="24" Background="White" Click="Btn_Help_Click" BorderBrush="White" BorderThickness="3" Template="{DynamicResource ImageButton}" Cursor="Hand" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Bottom">
+            <Image x:Name="img_Help" Source="/PVPlayTool;component/Assets/Shared/tex_Help.png" Margin="-17,-19,-19,-18" Width="85" Height="85"/>
+        </Button>
+        <TextBlock x:Name="txt_Help" HorizontalAlignment="Left" Margin="1155,506,0,0" TextWrapping="Wrap" Text="Help" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="20" Width="107" FontFamily="OptimusPrincepsSemiBold" TextAlignment="Center" TextDecorations="Underline"/>
+
+    </Grid>
+</Window>

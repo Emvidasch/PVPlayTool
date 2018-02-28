@@ -46,6 +46,7 @@ namespace PVPlayTool.View
         {
             //Initialize
             InitializeComponent();
+            WindowState = WindowState.Maximized;
 
             //Save parent window for opening/closing
             _parent = parent;

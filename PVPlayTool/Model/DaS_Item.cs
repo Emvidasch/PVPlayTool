@@ -9,8 +9,10 @@ namespace PVPlayTool.Model
     public class DaS_Item
     {
         public string ItemName;
+        public string ImagePath;
+
         public int Quantity;
 
-        public Enum_Rarity Rarity;
+        public ERarity.Rarity Rarity;
     }
 }
