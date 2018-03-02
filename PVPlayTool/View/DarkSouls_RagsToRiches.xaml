@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PVPlayTool.View"
         mc:Ignorable="d"
-        Title="DarkSouls_RagsToRiches" Height="1080" Width="1920" Background="#FF212121" Closed="OnRagsToRichesClosed">
+        Title="PVPlayTool - DarkSouls - RagsToRiches" Height="1080" Width="1920" Background="#FF212121" Closed="OnRagsToRichesClosed">
     <Grid x:Name="Grd_MainGrid">
-        <Button x:Name="Btn_TestCard" Content="Button" HorizontalAlignment="Left" Margin="1673,10,0,0" VerticalAlignment="Top" Width="229" Height="104" Click="Btn_CreateRewardCard_Click"/>
+        <GroupBox x:Name="grb_MainDeck" Header="Reward Cards" HorizontalAlignment="Left" Height="290" Margin="1684,10,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FF897702" Foreground="White" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2">
+            <Image x:Name="img_Deck" HorizontalAlignment="Left" Margin="6,-4,-10,0" VerticalAlignment="Top" Source="/PVPlayTool;component/Assets/Shared/tex_CardBack_Common.png" Width="192" Cursor="Hand"/>
+        </GroupBox>
+        <GroupBox x:Name="grb_Legendary" Header="Legendary" HorizontalAlignment="Left" Height="290" Margin="1322,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FFDE04FF" Foreground="#FFDC00FF" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
+        <GroupBox x:Name="grb_Rare" Header="Rare" HorizontalAlignment="Left" Height="290" Margin="1069,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FFFFFF04" Foreground="#FFFFE800" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
+        <GroupBox x:Name="grb_Uncommon" Header="Uncommon" HorizontalAlignment="Left" Height="290" Margin="815,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FF0426FF" Foreground="#FF0023FF" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
+        <GroupBox x:Name="grb_Common" Header="Common" HorizontalAlignment="Left" Height="289" Margin="559,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="White" Foreground="LightGray" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
+        <GroupBox x:Name="grb_CurseDeck" Header="Curse Cards" Margin="0,0,15,15" BorderBrush="#FFFF0303" Foreground="Red" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" Height="290" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="213">
+            <Image x:Name="img_CurseDeck" HorizontalAlignment="Left" Margin="6,-4,-10,0" VerticalAlignment="Top" Source="/PVPlayTool;component/Assets/Shared/tex_CardBack_Curse.png" Width="192"/>
+        </GroupBox>
+        <Button x:Name="Btn_Help" Margin="19,0,0,14" FontFamily="OptimusPrincepsSemiBold" FontSize="24" Background="White" Click="Btn_Help_Click" BorderBrush="White" BorderThickness="3" Template="{DynamicResource ImageButton}" Cursor="Hand" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Bottom">
+            <Image x:Name="img_Help" Source="/PVPlayTool;component/Assets/Shared/tex_Help.png" Margin="-17,-19,-19,-18" Width="85" Height="85"/>
+        </Button>
+        <TextBlock x:Name="txt_Help" HorizontalAlignment="Left" Margin="15,886,0,0" TextWrapping="Wrap" Text="Help" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="36" Width="107" FontFamily="OptimusPrincepsSemiBold" TextAlignment="Center" TextDecorations="Underline"/>
+        <TextBlock x:Name="Txt_RagsToRiches" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Rags To Riches" VerticalAlignment="Top" FontSize="72" FontFamily="OptimusPrincepsSemiBold" Foreground="#FFDEDEDE" TextDecorations="Underline"/>
     </Grid>
 </Window>

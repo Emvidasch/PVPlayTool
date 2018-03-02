@@ -46,3 +46,13 @@ C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\RewardCard.g.cs
 C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\RewardCard.baml
 C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Help.g.cs
 C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Help.baml
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_BuildEditor.g.cs
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches.g.cs
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Help.g.cs
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Intro.g.cs
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\RewardCard.g.cs
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_BuildEditor.baml
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches.baml
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Help.baml
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Intro.baml
+C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\RewardCard.baml
