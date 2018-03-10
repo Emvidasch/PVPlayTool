@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/shared/tex_help.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/shared/tex_bonfire.png")]
 
 

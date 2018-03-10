@@ -8,7 +8,7 @@
         Title="PVPlayTool - DarkSouls - RagsToRiches" Height="1080" Width="1920" Background="#FF212121" Closed="OnRagsToRichesClosed">
     <Grid x:Name="Grd_MainGrid">
         <GroupBox x:Name="grb_MainDeck" Header="Reward Cards" HorizontalAlignment="Left" Height="290" Margin="1684,10,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FF897702" Foreground="White" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2">
-            <Image x:Name="img_Deck" HorizontalAlignment="Left" Margin="6,-4,-10,0" VerticalAlignment="Top" Source="/PVPlayTool;component/Assets/Shared/tex_CardBack_Common.png" Width="192" Cursor="Hand"/>
+            <Image x:Name="img_Deck" HorizontalAlignment="Left" Margin="6,-4,-10,0" VerticalAlignment="Top" Source="/PVPlayTool;component/Assets/Shared/tex_CardBack_Common.png" Width="192" Cursor="Hand" MouseDown="Img_CreateRewardCard_Click"/>
         </GroupBox>
         <GroupBox x:Name="grb_Legendary" Header="Legendary" HorizontalAlignment="Left" Height="290" Margin="1322,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FFDE04FF" Foreground="#FFDC00FF" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
         <GroupBox x:Name="grb_Rare" Header="Rare" HorizontalAlignment="Left" Height="290" Margin="1069,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FFFFFF04" Foreground="#FFFFE800" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
@@ -20,7 +20,10 @@
         <Button x:Name="Btn_Help" Margin="19,0,0,14" FontFamily="OptimusPrincepsSemiBold" FontSize="24" Background="White" Click="Btn_Help_Click" BorderBrush="White" BorderThickness="3" Template="{DynamicResource ImageButton}" Cursor="Hand" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Bottom">
             <Image x:Name="img_Help" Source="/PVPlayTool;component/Assets/Shared/tex_Help.png" Margin="-17,-19,-19,-18" Width="85" Height="85"/>
         </Button>
-        <TextBlock x:Name="txt_Help" HorizontalAlignment="Left" Margin="15,886,0,0" TextWrapping="Wrap" Text="Help" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="36" Width="107" FontFamily="OptimusPrincepsSemiBold" TextAlignment="Center" TextDecorations="Underline"/>
+        <TextBlock x:Name="txt_Help" HorizontalAlignment="Left" Margin="15,0,0,121" TextWrapping="Wrap" Text="Help" Foreground="#FFDEDEDE" FontSize="36" Width="107" FontFamily="OptimusPrincepsSemiBold" TextAlignment="Center" TextDecorations="Underline" Height="42" VerticalAlignment="Bottom"/>
         <TextBlock x:Name="Txt_RagsToRiches" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Rags To Riches" VerticalAlignment="Top" FontSize="72" FontFamily="OptimusPrincepsSemiBold" Foreground="#FFDEDEDE" TextDecorations="Underline"/>
+        <Button x:Name="btn_Reset" HorizontalAlignment="Left" Margin="836,807,0,0" VerticalAlignment="Top" Width="428" Height="212" Cursor="Hand" Template="{DynamicResource ImageButton}">
+            <Image x:Name="img_Bonfire" Source="/PVPlayTool;component/Assets/Shared/tex_Bonfire.png" Width="420" Height="200"/>
+        </Button>
     </Grid>
 </Window>

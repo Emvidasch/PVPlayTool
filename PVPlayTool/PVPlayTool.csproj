@@ -750,5 +750,8 @@
   <ItemGroup>
     <Resource Include="Assets\Shared\tex_Help.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Shared\tex_Bonfire.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
