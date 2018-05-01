@@ -23,8 +23,17 @@ namespace PVPlayTool
         public MainWindow()
         {
             InitializeComponent();
-            App.DaS_InitializeStartingClasses();
             this.WindowState = WindowState.Maximized;
+
+            //Initialize DaS lists
+            App.DaS_InitializeStartingClasses();
+
+            App.DaS_LoadWeapons();
+            App.DaS_LoadArmour();
+            App.DaS_LoadRings();
+            App.DaS_LoadSpells();
+            App.DaS_LoadItems();
+            App.DaS_LoadCurses();
         }
 
         private void btn_DarkSoulsClick(object sender, RoutedEventArgs e)

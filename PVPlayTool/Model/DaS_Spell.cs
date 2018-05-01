@@ -12,7 +12,7 @@ namespace PVPlayTool.Model
         public string ImagePath;
 
         public int IntReq;
-        public int FaithReq;
+        public int FthReq;
         public int AttReq;
 
         public ERarity.Rarity Rarity;

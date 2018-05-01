@@ -89,8 +89,6 @@ namespace PVPlayTool.View
             dice = rand.NextDouble() * (chanceLimit + 1);
 
             return (dice <= chance);
-
-
         }
     }
 }
