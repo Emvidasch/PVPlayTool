@@ -30,10 +30,16 @@ namespace PVPlayTool.View
 
         public List<DaS_Curse> CurseList;
 
-        public DarkSouls_RagsToRiches(DarkSouls_RagsToRiches_Intro parent)
+        public DarkSouls_RagsToRiches(DarkSouls_RagsToRiches_Intro parent, bool useBuild)
         {
+            //Initialize
             InitializeComponent();
+
+            //Set Parent
             _parent = parent;
+
+            //Load Rewards
+            LoadRewards(useBuild);
         }
 
         private void OnRagsToRichesClosed(object sender, EventArgs e)
@@ -60,6 +66,7 @@ namespace PVPlayTool.View
             rare = DiceRoll(15, 512);
             //Roll for Uncommon
             uncommon = DiceRoll(30, 512);
+
             // If no cards were previously drawn succesfully, guarantee a Common card, else Roll for Common
             if(legendary || rare || uncommon)
             {
@@ -70,6 +77,23 @@ namespace PVPlayTool.View
                 common = DiceRoll(80, 512);
             }
 
+            //Check rolls and draw cards
+            if(legendary)
+            {
+                Draw(ERarity.Rarity.LEGENDARY);
+            }
+            if (rare)
+            {
+                Draw(ERarity.Rarity.RARE);
+            }
+            if (uncommon)
+            {
+                Draw(ERarity.Rarity.UNCOMMON);
+            }
+            if (common)
+            {
+                Draw(ERarity.Rarity.COMMON);
+            }
 
         }
         private void Btn_Help_Click(object sender, RoutedEventArgs e)
@@ -89,6 +113,63 @@ namespace PVPlayTool.View
             dice = rand.NextDouble() * (chanceLimit + 1);
 
             return (dice <= chance);
+        }
+        private void LoadRewards(bool useBuild)
+        {
+            if(!useBuild)
+            {
+                WeaponRewardList = App.DaS_WeaponList;
+                ArmourRewardList = App.DaS_ArmourList;
+                RingRewardList = App.DaS_RingList;
+                ItemRewardList = App.DaS_ItemList;
+                SpellRewardList = App.DaS_SpellList;
+                CurseList = App.DaS_CurseList;
+            }
+            else
+            {
+                // Get current stats from saved build
+                DaS_Build b = App.DaS_CurrentBuild;
+
+                //Weapons
+                var weapons = from w in App.DaS_WeaponList where 
+                              w.StrReq <= (b.Strength * 1.5f) &&
+                              w.DexReq <= b.Dexterity &&
+                              w.IntReq <= b.Intelligence &&
+                              w.FthReq <= b.Faith
+                              select w;
+
+                foreach(var w in weapons)
+                {
+                    WeaponRewardList.Add(w);
+                }
+
+                //Armour
+                ArmourRewardList = App.DaS_ArmourList;
+
+                //Rings
+                RingRewardList = App.DaS_RingList;
+
+                //Items
+                ItemRewardList = App.DaS_ItemList;
+
+                //Spells
+                var spells = from s in App.DaS_SpellList where
+                             s.AttReq <= b.Attunement &&
+                             s.IntReq <= b.Intelligence &&
+                             s.FthReq <= b.Faith
+                             select s;
+                foreach(var s in spells)
+                {
+                    SpellRewardList.Add(s);
+                }
+
+                //Curses
+                CurseList = App.DaS_CurseList;
+            }
+        }
+        private RewardCard Draw(ERarity.Rarity rarity)
+        {
+
         }
     }
 }

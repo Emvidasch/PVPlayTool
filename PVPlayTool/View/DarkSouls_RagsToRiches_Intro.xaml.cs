@@ -29,7 +29,7 @@ namespace PVPlayTool.View
 
         private void Btn_StartRagsToRiches_Click(object sender, RoutedEventArgs e)
         {
-            DarkSouls_RagsToRiches r2r = new DarkSouls_RagsToRiches(this);
+            DarkSouls_RagsToRiches r2r = new DarkSouls_RagsToRiches(this,(bool)ckb_UseBuild.IsChecked);
             r2r.WindowState = WindowState.Maximized;
             r2r.Show();
             this.Hide();
