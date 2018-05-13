@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DaS_Curses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Curse>
+		<CurseName>Curse of Manus</CurseName>
+		<Description>Cannot use Humanity to heal in the next fight.</Description>
+		<Rarity>0</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Kalameet</CurseName>
+		<Description>Must wear Calamity Ring during the next fight.</Description>
+		<Rarity>2</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Fina</CurseName>
+		<Description>Can only wear one ring in the next fight.</Description>
+		<Rarity>2</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Lloyd</CurseName>
+		<Description>Cannot use any consumeables in the next fight.</Description>
+		<Rarity>2</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Artorias</CurseName>
+		<Description>Cannot wield anything in Left Hand in the next fight.</Description>
+		<Rarity>3</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Greed</CurseName>
+		<Description>Must wear the Symbol of Avarice in the next fight.</Description>
+		<Rarity>3</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Silence</CurseName>
+		<Description>Cannot use any Sorcery, Pyromancy or Miracles in the next fight.</Description>
+		<Rarity>2</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of the Hyena</CurseName>
+		<Description>If the next fight is not won with a backstab, all rewards are forfeited.</Description>
+		<Rarity>0</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Gravity</CurseName>
+		<Description>If the next fight is not won through fall damage, all rewards are forfeited.</Description>
+		<Rarity>3</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Wear</CurseName>
+		<Description>Any Equipment in a left handed slot is broken.</Description>
+		<Rarity>1</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Tear</CurseName>
+		<Description>Any Equipment in a right handed slot is broken.</Description>
+		<Rarity>2</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Rust</CurseName>
+		<Description>Any Equipment in both left and right handed slots are broken.</Description>
+		<Rarity>3</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Engagement</CurseName>
+		<Description>Any ring in the first ring slot is broken.</Description>
+		<Rarity>3</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Marriage</CurseName>
+		<Description>Any ring in the second ring slot is broken.</Description>
+		<Rarity>3</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Giants</CurseName>
+		<Description>Equipment in Helm slot is broken.</Description>
+		<Rarity>1</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Acid</CurseName>
+		<Description>Equipment in Body slot is broken.</Description>
+		<Rarity>2</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Thieves</CurseName>
+		<Description>Equipment in Hand slot is broken.</Description>
+		<Rarity>0</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Impact</CurseName>
+		<Description>Equipment in Legs slot is broken.</Description>
+		<Rarity>1</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Hollowing</CurseName>
+		<Description>Lose 5 Humanity.</Description>
+		<Rarity>0</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Curse of Madness</CurseName>
+		<Description>Forget the Sorcery, Pyromancy or Miracle you have currently selected.</Description>
+		<Rarity>2</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Minor Curse of Dragons</CurseName>
+		<Description>Must have Dragon Head Stone activated for the next fight.</Description>
+		<Rarity>0</Rarity>
+	</Curse>
+	<Curse>
+		<CurseName>Major Curse of Dragons</CurseName>
+		<Description>Must be fully transformed into Dragon Form for the next fight.</Description>
+		<Rarity>2</Rarity>
+	</Curse>
+</DaS_Curses>

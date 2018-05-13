@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DaS_Rings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Ring>
+		<EquipmentName>Tiny Being's Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_TinyBeingsRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Cloranty Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_ClorantyRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Havel's Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_HavelsRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Ring of Steel Protection</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_RingofSteelProtection.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Spell Stoneplate Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_SpellStoneplateRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Flame Stoneplate Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_FlameStoneplateRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Thunder Stoneplate Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_ThunderStoneplateRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Speckled Stoneplate Ring</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_SpeckledStoneplateRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Bloodbite Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BloodbiteRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Poisonbite Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_PoisonbiteRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Cursebite Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_CursebiteRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Red Tearstone Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_RedTearstoneRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Blue Tearstone Ring</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BlueTearstoneRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Ring of Sacrifice</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_RingOfSacrifice.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Rare Ring of Sacrifice</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_RareRingOfSacrifice.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Bellowing Dragoncrest Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_BellowingDragoncrestRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Lingering Dragoncrest Ring</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_LingeringDragoncrestRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Slumbering Dragoncrest Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_SlumberingDragoncrestRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Dusk Crown Ring</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_DuskCrownRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>White Seance Ring</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_WhiteSeanceRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Darkmoon Seance Ring</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_DarkmoonSeanceRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Ring of the Sun's Firstborn</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_RingOfTheSunsFirstborn.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Leo Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_LeoRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Wolf Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_WolfRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Hawk Ring</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_HawkRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Hornet Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_HornetRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Dark Wood Grain Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_DarkWoodGrainRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Rusted Iron Ring</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_RustedIronRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Covetous Gold Serpent Ring</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CovetousGoldSerpentRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Darkmoon Blade Covenant Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_DarkmoonBladeCovenantRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Covetous Silver Serpent Ring</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CovetousSilverSerpentRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Covenant of Artorias</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_CovenantofArtorias.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Orange Charred Ring</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_OrangeCharredRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Old Witch's Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_OldWitchsRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Ring of Fog</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_RingOfFog.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Cat Covenant Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_CatCovenantRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Ring of Favor and Protection</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_RingofFavorandProtection.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>East Wood Grain Ring</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_EastWoodGrainRing.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Ring of the Evil Eye</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_RingOfTheEvilEye.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Ring of the Sun Princess</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_RingOfTheSunPrincess.png</ImagePath>
+	</Ring>
+	<Ring>
+		<EquipmentName>Calamity Ring</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_CalamityRing.png</ImagePath>
+	</Ring>
+</DaS_Rings>

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DaS_Spells xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Spell>
+		<SpellName>Soul Arrow</SpellName>
+		<IntReq>10</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_SoulArrow.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Soul Arrow</SpellName>
+		<IntReq>14</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_GreatSoulArrow.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Heavy Soul Arrow</SpellName>
+		<IntReq>12</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_HeavySoulArrow.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Heavy Soul Arrow</SpellName>
+		<IntReq>16</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_GreatHeavySoulArrow.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Homing Soulmass</SpellName>
+		<IntReq>18</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_HomingSoulmass.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Hush</SpellName>
+		<IntReq>15</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_Hush.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Cast Light</SpellName>
+		<IntReq>14</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_CastLight.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Soul Spear</SpellName>
+		<IntReq>36</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SoulSpear.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Crystal Soul Spear</SpellName>
+		<IntReq>44</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_CrystalSoulSpear.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Crystal Magic Weapon</SpellName>
+		<IntReq>25</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_CrystalMagicWeapon.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Homing Crystal Soulmass</SpellName>
+		<IntReq>24</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_HomingCrystalSoulmass.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Remedy</SpellName>
+		<IntReq>16</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_Remedy.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Resist Curse</SpellName>
+		<IntReq>16</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_ResistCurse.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Repair</SpellName>
+		<IntReq>14</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_Repair.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Hidden Body</SpellName>
+		<IntReq>14</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_HiddenBody.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Chameleon</SpellName>
+		<IntReq>14</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_Chameleon.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Hidden Weapon</SpellName>
+		<IntReq>14</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HiddenWeapon.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Magic Shield</SpellName>
+		<IntReq>10</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_MagicShield.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Strong Magic Shield</SpellName>
+		<IntReq>15</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_StrongMagicShield.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Magic Weapon</SpellName>
+		<IntReq>10</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_MagicWeapon.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Magic Weapon</SpellName>
+		<IntReq>15</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GreatMagicWeapon.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Aural Decoy</SpellName>
+		<IntReq>10</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_AuralDecoy.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>White Dragon Breath</SpellName>
+		<IntReq>50</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_WhiteDragonBreath.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Fall Control</SpellName>
+		<IntReq>15</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_FallControl.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Dark Orb</SpellName>
+		<IntReq>16</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_DarkOrb.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Dark Bead</SpellName>
+		<IntReq>16</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_DarkBead.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Dark Fog</SpellName>
+		<IntReq>18</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_DarkFog.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Pursuers</SpellName>
+		<IntReq>32</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>12</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_Pursuers.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Force</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>12</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_Force.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Emit Force</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>18</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_EmitForce.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Wrath of the Gods</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>28</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_WrathOfTheGods.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Heal</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>12</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_Heal.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Heal Excerpt</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>14</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_GreatHealExcerpt.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Heal</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>24</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GreatHeal.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Soothing Sunlight</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>48</FthReq>
+		<AttReq>12</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_SoothingSunlight.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Replenishment</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>16</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_Replenishment.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Bountiful Sunlight</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>36</FthReq>
+		<AttReq>12</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_BountifulSunlight.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Lightning Spear</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>20</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_LightningSpear.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Lightning Spear</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>30</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GreatLightningSpear.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Sunlight Spear</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>50</FthReq>
+		<AttReq>12</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_SunlightSpear.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Homeward</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>18</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_Homeward.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Magic Barrier</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>14</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_MagicBarrier.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Magic Barrier</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>24</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GreatMagicBarrier.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Seek Guidance</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>12</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_SeekGuidance.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Karmic Justice</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>20</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_KarmicJustice.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Darkmoon Blade</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>30</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_DarkmoonBlade.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Tranquil Walk of Peace</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>18</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_TranquilWalkofPeace.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Vow of Silence</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>30</FthReq>
+		<AttReq>12</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_VowofSilence.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Gravelord Sword Dance</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_GravelordSwordDance.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Gravelord Greatsword Dance</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GravelordGreatswordDance.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Sunlight Blade</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>30</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_SunlightBlade.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Fireball</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_Fireball.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Fire Orb</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_FireOrb.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Fireball</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GreatFireball.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Flash Sweat</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_FlashSweat.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Combustion</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_Combustion.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Combustion</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GreatCombustion.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Fire Whip</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_FireWhip.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Chaos Fire Whip</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>12</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_ChaosFireWhip.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Fire Surge</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_FireSurge.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Acid Surge</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_AcidSurge.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Firestorm</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_Firestorm.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Chaos Storm</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>12</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_ChaosStorm.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Fire Tempest</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_FireTempest.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Great Chaos Fireball</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>12</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GreatChaosFireball.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Power Within</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_PowerWithin.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Iron Flesh</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_IronFlesh.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Poison Mist</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PoisonMist.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Toxic Mist</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_ToxicMist.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Undead Rapport</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_UndeadRapport.png</ImagePath>
+	</Spell>
+	<Spell>
+		<SpellName>Black Flame</SpellName>
+		<IntReq>0</IntReq>
+		<FthReq>0</FthReq>
+		<AttReq>10</AttReq>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_BlackFlame.png</ImagePath>
+	</Spell>
+</DaS_Spells>

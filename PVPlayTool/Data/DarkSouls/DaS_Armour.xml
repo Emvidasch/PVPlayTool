@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DaS_Armour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Armour>
+		<EquipmentName>Wanderer Hood</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_WandererHood.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Thief Mask</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_ThiefMask.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Brigand Hood</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BrigandHood.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Pharis's Hat</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PharissHat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Sorcerer Hat</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_SorcererHat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Tattered Cloth Hood</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_TatteredClothHood.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Priest's Hat</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_PriestsHat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Standard Helm</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_StandardHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Knight Helm</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_KnightHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Shadow Mask</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_ShadowMask.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Sorcerer Hat</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BlackSorcererHat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Six Eyed Helmet of the Channelers</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SixEyedHelmetOfTheChannelers.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Maiden Hood</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_MaidenHood.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crown of Dusk</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_CrownOfDusk.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Thief's Hood</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HollowThiefsHood.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Painting Guardian Hood</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PaintingGuardianHood.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Warrior Helm</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HollowWarriorHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Soldier Helm</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HollowSoldierHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Dingy Hood</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_DingyHood.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crown of the Dark Sun</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CrownOfTheDarkSun.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Big Hat</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BigHat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gold-Hemmed Black Hood</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GoldHemmedBlackHood.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Mask of the Sealer</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_MaskOfTheSealer.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Mask of Velka</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_MaskOfVelka.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Witch Hat</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_WitchHat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Xanthous Crown</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_XanthousCrown.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Chain Helm</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_ChainHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crown of the Great Lord</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CrownOfTheGreatLord.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Snickering Top Hat</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SnickeringTopHat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Porcelain Mask</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_PorcelainMask.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Iron Helm</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_IronHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Eastern Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_EasternHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Helm of the Wise</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_HelmOfTheWise.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Balder Helm</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BalderHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Helm of Thorns</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HelmOfThorns.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Dark Mask</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_DarkMask.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Elite Knight Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_EliteKnightHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Ornstein's Helm</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_OrnsteinsHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crystalline Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CrystallineHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Brass Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BrassHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Helm of Favor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_HelmOfFavor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Catarina Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CatarinaHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Silver Knight Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SilverKnightHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Knight Helm</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_BlackKnightHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Paladin Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_PaladinHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Steel Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SteelHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Helm of Artorias</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_HelmOfArtorias.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gough's Helm</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GoughsHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Iron Helm</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_BlackIronHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Giant Helm</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GiantHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Havel's Helm</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_HavelsHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Smough's Helm</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_SmoughsHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Golem Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GolemHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Stone Knight Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_StoneKnightHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Guardian Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GuardianHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Fang Boar Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_FangBoarHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gargoyle Helm</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_GargoyleHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Sunlight Maggot</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SunlightMaggot.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Sack</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_Sack.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Royal Helm</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_RoyalHelm.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Mask of the Father</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_MaskOfTheFather.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Mask of the Mother</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_MaskOfTheMother.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Mask of the Child</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_MaskOfTheChild.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Bloated Head</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BloatedHead.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Bloated Sorcerer Head</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BloatedSorcererHead.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Wanderer Coat</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_WandererCoat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Leather Armor</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BlackLeatherArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Brigand Armor</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BrigandArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Leather Armor</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_LeatherArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Sorcerer Cloak</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_SorcererCloak.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Tattered Cloth Robe</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_TatteredClothRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Holy Robe</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_HolyRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hard Leather Armor</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HardLeatherArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Knight Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_KnightArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Shadow Garb</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_ShadowGarb.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Sorcerer Cloak</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BlackSorcererCloak.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Maiden Robe</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_MaidenRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Antiquated Dress</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_AntiquatedDress.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Thief's Leather Armor</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HollowThiefsLeatherArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Painting Guardian Robe</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PaintingGuardianRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Warrior Armor</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HollowWarriorArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Soldier Armor</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HollowSoldierArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Dingy Robe</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_DingyRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Moonlight Robe</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_MoonlightRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Sage Robe</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SageRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gold Hemmed Black Cloak</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_Gold-HemmedBlackCloak.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crimson Robe</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_CrimsonRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Cleric Robe</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BlackClericRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Witch Cloak</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_WitchCloak.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Xanthous Overcoat</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_XanthousOvercoat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Chain Armor</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_ChainArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Robe of the Great Lord</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_RobeOfTheGreatLord.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Chester's Long Coat</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_ChestersLongCoat.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Lord's Blade Robe</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_LordsBladeRobe.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Armor of the Sun</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_ArmoroftheSun.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Eastern Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_EasternArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Armor of the Glorious</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_ArmorOfTheGlorious.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Balder Armor</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BalderArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Armor of Thorns</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_ArmorOfThorns.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Dark Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_DarkArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Elite Knight Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_EliteKnightArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Ornstein's Armor</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_OrnsteinsArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crystalline Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CrystallineArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Brass Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BrassArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Embraced Armor of Favor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_EmbracedArmorOfFavor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Catarina Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CatarinaArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Silver Knight Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SilverKnightArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Knight Armor</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_BlackKnightArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Paladin Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_PaladinArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Steel Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SteelArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Armor of Artorias</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_ArmorOfArtorias.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gough's Armor</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GoughsArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Iron Armor</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_BlackIronArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Giant Armor</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GiantArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Havel's Armor</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_HavelsArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Smough's Armor</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_SmoughsArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Golem Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GolemArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Stone Armor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_StoneArmor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Guardian Armour</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GuardianArmour.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Wanderer Manchette</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_WandererManchette.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Leather Gloves</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BlackLeatherGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Brigand Gauntlets</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BrigandGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Leather Gloves</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_LeatherGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Sorcerer Gauntlets</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_SorcererGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Tattered Cloth Manchette</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_TatteredClothManchette.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Traveling Gloves</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_TravelingGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hard Leather Gauntlets</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HardLeatherGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Knight Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_KnightGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Shadow Gauntlets</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_ShadowGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Sorcerer Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BlackSorcererGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gauntlets of the Channeler</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_GauntletsOfTheChanneler.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Maiden Gloves</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_MaidenGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Antiquated Gloves</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_AntiquatedGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Painting Guardian Gloves</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PaintingGuardianGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Dingy Gloves</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_DingyGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Moonlight Gloves</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_MoonlightGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gold-Hemmed Black Gloves</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_Gold-HemmedBlackGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crimson Gloves</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CrimsonGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Manchette</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BlackManchette.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Witch Gloves</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_WitchGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Xanthous Gloves</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_XanthousGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Leather Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_LeatherGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Bracelet of the Great Lord</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BraceletOfTheGreatLord.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Chester's Gloves</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_ChestersGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Lord's Blade Gloves</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_LordsBladeGloves.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Iron Bracelet</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_IronBracelet.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Eastern Gauntlet</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_EasternGauntlet.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gauntlets of the Vanquisher</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GauntletsOfTheVanquisher.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Balder Gauntlets</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BalderGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gauntlets of Thorns</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GauntletsOfThorns.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Dark Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_DarkGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Elite Knight Gauntlets</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_EliteKnightGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Ornstein's Gauntlets</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_OrnsteinsGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crystalline Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CrystallineGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Brass Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BrassGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gauntlets of Favor</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GauntletsOfFavor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Catarina Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CatarinaGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Silver Knight Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SilverKnightGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Knight Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BlackKnightGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Paladin Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_PaladinGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Steel Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SteelGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gauntlets of Artorias</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GauntletsOfArtorias.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gough's Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GoughsGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Iron Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BlackIronGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Giant Gauntlets</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GiantGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Havel's Gauntlets</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_HavelsGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Smough's Gauntlets</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_SmoughsGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Golem Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GolemGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Stone Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_StoneGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Guardian Gauntlets</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GuardianGauntlets.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Wanderer Boots</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_WandererBoots.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Leather Boots</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BlackLeatherBoots.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Brigand Trousers</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BrigandTrousers.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Leather Boots</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_LeatherBoots.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Sorcerer Boots</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_SorcererBoots.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Heavy Boots</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_HeavyBoots.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Holy Trousers</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_HolyTrousers.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hard Leather Boots</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HardLeatherBoots.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Knight Leggings</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_KnightLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Shadow Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_ShadowLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Sorcerer Boots</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BlackSorcererBoots.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Waistcloth of the Channelers</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_WaistclothOfTheChannelers.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Maiden Skirt</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_MaidenSkirt.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Antiquated Skirt</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_AntiquatedSkirt.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Thief's Tights</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_HollowThiefsTights.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Painting Guardian Waistcloth</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PaintingGuardianWaistcloth.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Warrior Waistcloth</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HollowWarriorWaistcloth.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Hollow Soldier Waistcloth</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_HollowSoldierWaistcloth.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Blood-Stained Skirt</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_Blood-StainedSkirt.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Moonlight Waistcloth</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_MoonlightWaistcloth.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Traveling Boots</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_TravelingBoots.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gold-Hemmed Black Skirt</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_Gold-HemmedBlackSkirt.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crimson Waistcloth</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_CrimsonWaistcloth.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Tights</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BlackTights.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Witch Skirt</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_WitchSkirt.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Xanthous Waistcloth</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_XanthousWaistcloth.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Chain Leggings</EquipmentName>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_ChainLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Anklet of the Great Lord</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_AnkletOfTheGreatLord.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Chester's Trousers</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_ChestersTrousers.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Lord's Blade Waistcloth</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_LordsBladeWaistcloth.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Iron Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_IronLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Eastern Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_EasternLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Boots of the Explorer</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BootsOfTheExplorer.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Balder Leggings</EquipmentName>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BalderLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Leggings of Thorns</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_LeggingsOfThorns.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Dark Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_DarkLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Elite Knight Leggings</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_EliteKnightLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Ornstein's Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_OrnsteinsLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Crystalline Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CrystallineLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Brass Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BrassLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Leggings of Favor</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_LeggingsOfFavor.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Catarina Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CatarinaLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Silver Knight Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SilverKnightLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Knight Leggings</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_BlackKnightLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Paladin Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_PaladinLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Steel Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SteelLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Leggings of Artorias</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_LeggingsofArtorias.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Gough's Leggings</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GoughsLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Black Iron Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BlackIronLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Giant Leggings</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GiantLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Havel's Leggings</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_HavelsLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Smough's Leggings</EquipmentName>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_SmoughsLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Golem Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GolemLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Stone Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_StoneLeggings.png</ImagePath>
+	</Armour>
+	<Armour>
+		<EquipmentName>Guardian Leggings</EquipmentName>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GuardianLeggings.png</ImagePath>
+	</Armour>
+</DaS_Armour>

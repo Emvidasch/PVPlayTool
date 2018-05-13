@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DaS_Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Item>
+		<ItemName>Humanity</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_Humanity.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Humanity</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_Humanity.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Humanity</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_Humanity.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Green Blossom</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_GreenBlossom.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Green Blossom</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_GreenBlossom.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Green Blossom</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GreenBlossom.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Bloodred Moss Clump</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BloodredMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Bloodred Moss Clump</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_BloodredMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Bloodred Moss Clump</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BloodredMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Purple Moss Clump</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_PurpleMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Purple Moss Clump</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PurpleMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Purple Moss Clump</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PurpleMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Blooming Purple Moss Clump</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BloomingPurpleMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Blooming Purple Moss Clump</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BloomingPurpleMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Blooming Purple Moss Clump</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BloomingPurpleMossClump.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Charcoal Pine Resin</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_CharcoalPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Charcoal Pine Resin</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_CharcoalPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Charcoal Pine Resin</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_CharcoalPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Rotten Pine Resin</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_RottenPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Rotten Pine Resin</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_RottenPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Rotten Pine Resin</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_RottenPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Gold Pine Resin</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_GoldPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Gold Pine Resin</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_GoldPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Gold Pine Resin</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_GoldPineResin.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Elizabeth's Mushroom</ItemName>
+		<Quantity>1</Quantity>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_Elizabeth'sMushroom.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Divine Blessing</ItemName>
+		<Quantity>1</Quantity>
+		<Rarity>3</Rarity>
+		<ImagePath>tex_DaS_DivineBlessing.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Firebomb</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_Firebomb.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Firebomb</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_Firebomb.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Firebomb</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_Firebomb.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Black Firebomb</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BlackFirebomb.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Black Firebomb</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_BlackFirebomb.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Black Firebomb</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_BlackFirebomb.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Dung Pie</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_DungPie.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Dung Pie</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_DungPie.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Dung Pie</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_DungPie.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Throwing Knife</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_ThrowingKnife.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Throwing Knife</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>0</Rarity>
+		<ImagePath>tex_DaS_ThrowingKnife.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Throwing Knife</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_ThrowingKnife.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Poison Throwing Knife</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PoisonThrowingKnife.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Poison Throwing Knife</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_PoisonThrowingKnife.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Poison Throwing Knife</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_PoisonThrowingKnife.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Lloyd's Talisman</ItemName>
+		<Quantity>3</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_Lloyd'sTalisman.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Lloyd's Talisman</ItemName>
+		<Quantity>5</Quantity>
+		<Rarity>1</Rarity>
+		<ImagePath>tex_DaS_Lloyd'sTalisman.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Lloyd's Talisman</ItemName>
+		<Quantity>10</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_Lloyd'sTalisman.png</ImagePath>
+	</Item>
+	<Item>
+		<ItemName>Silver Pendant</ItemName>
+		<Quantity>1</Quantity>
+		<Rarity>2</Rarity>
+		<ImagePath>tex_DaS_SilverPendant.png</ImagePath>
+	</Item>
+</DaS_Items>
