@@ -453,7 +453,6 @@
     <Resource Include="Assets\DarkSouls\Rings\tex_DaS_BlueTearstoneRing.png" />
     <Resource Include="Assets\DarkSouls\Rings\tex_DaS_CalamityRing.png" />
     <Resource Include="Assets\DarkSouls\Rings\tex_DaS_CatCovenantRing.png" />
-    <Resource Include="Assets\DarkSouls\Rings\tex_DaS_CloranthyRing.png" />
     <Resource Include="Assets\DarkSouls\Rings\tex_DaS_CovenantOfArtorias.png" />
     <Resource Include="Assets\DarkSouls\Rings\tex_DaS_CovetousGoldSerpentRing.png" />
     <Resource Include="Assets\DarkSouls\Rings\tex_DaS_CovetousSilverSerpentRing.png" />
@@ -617,7 +616,6 @@
     <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DemonsCatalyst.png" />
     <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DemonsGreataxe.png" />
     <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DemonsGreatHammer.png" />
-    <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DemonSpear.png" />
     <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DragonBoneFist.png" />
     <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DragonCrestShield.png" />
     <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DragonGreatsword.png" />
@@ -752,6 +750,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Shared\tex_Bonfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\DarkSouls\Rings\tex_DaS_ChloranthyRing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DemonsSpear.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

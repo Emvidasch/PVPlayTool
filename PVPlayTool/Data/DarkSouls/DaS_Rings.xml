@@ -6,9 +6,9 @@
 		<ImagePath>tex_DaS_TinyBeingsRing.png</ImagePath>
 	</Ring>
 	<Ring>
-		<EquipmentName>Cloranty Ring</EquipmentName>
+		<EquipmentName>Chloranthy Ring</EquipmentName>
 		<Rarity>3</Rarity>
-		<ImagePath>tex_DaS_ClorantyRing.png</ImagePath>
+		<ImagePath>tex_DaS_ChloranthyRing.png</ImagePath>
 	</Ring>
 	<Ring>
 		<EquipmentName>Havel's Ring</EquipmentName>

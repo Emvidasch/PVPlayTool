@@ -79,7 +79,7 @@ namespace PVPlayTool.View
             ItemImagePath = _baseImagePath + "DarkSouls/Armour/" + armour.ImagePath;
 
             SetCardArt();
-            CreateImages();
+            //CreateImages();
 
             InitializeComponent();
         }

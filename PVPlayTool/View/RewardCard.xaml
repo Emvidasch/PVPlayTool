@@ -46,7 +46,9 @@
         <Image x:Name="Img_CardBack" Source="{Binding ItemRarityCardBack}" Cursor="None" IsHitTestVisible="False"/>
         <Image x:Name="Img_CardFront" Source="{Binding ItemRarityCardFront}" Opacity="0"/>
         <Image x:Name="Img_CardImage" Source="{Binding ItemImagePath}" Margin="38,52,36,90" Opacity="0"/>
-        <TextBlock x:Name="Txt_CardName" TextWrapping="Wrap" Text="{Binding ItemName}" Margin="20,16,20,221" FontFamily="OptimusPrincepsSemiBold" Foreground="White" TextAlignment="Center" Opacity="0"/>
-        <TextBlock x:Name="Txt_CardDescription" TextWrapping="Wrap" Text="{Binding ItemDescription}" Margin="20,191,18,16" FontFamily="OptimusPrincepsSemiBold" Foreground="White" FontSize="10" Opacity="0"/>
+        <Viewbox Margin="20,15,20,220" Width="150" Height="20" StretchDirection="DownOnly" MaxWidth="150" MaxHeight="20">
+            <TextBlock x:Name="Txt_CardName" Text="{Binding ItemName}" FontFamily="OptimusPrincepsSemiBold" Foreground="White" TextAlignment="Center" Opacity="0" TextWrapping="Wrap"/>
+        </Viewbox>
+        <TextBlock x:Name="Txt_CardDescription" Text="{Binding ItemDescription}" FontFamily="OptimusPrincepsSemiBold" Foreground="White" Opacity="0" TextWrapping="Wrap" FontSize="14" Margin="20,190,20,10"/>
     </Grid>
 </UserControl>

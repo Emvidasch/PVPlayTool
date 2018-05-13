@@ -223,7 +223,7 @@
 		<IntReq>0</IntReq>
 		<FthReq>0</FthReq>
 		<Rarity>1</Rarity>
-		<ImagePath>tex_DaS_Man-SerpentGreatsword.png</ImagePath>
+		<ImagePath>tex_DaS_ManserpentGreatsword.png</ImagePath>
 	</Weapon>
 	<Weapon>
 		<EquipmentName>Great Lord Greatsword</EquipmentName>

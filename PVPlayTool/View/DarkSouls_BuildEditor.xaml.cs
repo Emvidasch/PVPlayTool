@@ -111,6 +111,7 @@ namespace PVPlayTool.View
                     SelectedStartingClass = new DaS_StartingClass("Deprived");
                     break;
                 default:
+                    SelectedStartingClass = new DaS_StartingClass("Warrior");
                     break;
             }
             UpdateBaseStats();

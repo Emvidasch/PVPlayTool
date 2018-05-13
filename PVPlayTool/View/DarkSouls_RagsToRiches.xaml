@@ -7,14 +7,50 @@
         mc:Ignorable="d"
         Title="PVPlayTool - DarkSouls - RagsToRiches" Height="1080" Width="1920" Background="#FF212121" Closed="OnRagsToRichesClosed">
     <Grid x:Name="Grd_MainGrid">
-        <GroupBox x:Name="grb_MainDeck" Header="Reward Cards" HorizontalAlignment="Left" Height="290" Margin="1684,10,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FF897702" Foreground="White" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2">
+        <GroupBox x:Name="grb_MainDeck" Header="Reward Cards" Margin="1441,0,258,15" BorderBrush="#FF897702" Foreground="White" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" Height="290" VerticalAlignment="Bottom">
             <Image x:Name="img_Deck" HorizontalAlignment="Left" Margin="6,-4,-10,0" VerticalAlignment="Top" Source="/PVPlayTool;component/Assets/Shared/tex_CardBack_Common.png" Width="192" Cursor="Hand" MouseDown="Img_CreateRewardCard_Click"/>
         </GroupBox>
-        <GroupBox x:Name="grb_Legendary" Header="Legendary" HorizontalAlignment="Left" Height="290" Margin="1322,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FFDE04FF" Foreground="#FFDC00FF" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
-        <GroupBox x:Name="grb_Rare" Header="Rare" HorizontalAlignment="Left" Height="290" Margin="1069,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FFFFFF04" Foreground="#FFFFE800" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
-        <GroupBox x:Name="grb_Uncommon" Header="Uncommon" HorizontalAlignment="Left" Height="290" Margin="815,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FF0426FF" Foreground="#FF0023FF" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
-        <GroupBox x:Name="grb_Common" Header="Common" HorizontalAlignment="Left" Height="289" Margin="559,360,0,0" VerticalAlignment="Top" Width="213" BorderBrush="White" Foreground="LightGray" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2"/>
-        <GroupBox x:Name="grb_CurseDeck" Header="Curse Cards" Margin="0,0,15,15" BorderBrush="#FFFF0303" Foreground="Red" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" Height="290" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="213">
+        <GroupBox x:Name="grb_Common" Header="Common" Height="290" Margin="200,200,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="LightGray" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="214">
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.3" ScaleY="1.3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+        </GroupBox>
+        <GroupBox x:Name="grb_Uncommon" Header="Uncommon" HorizontalAlignment="Left" Height="290" Margin="600,200,0,0" VerticalAlignment="Top" Width="214" BorderBrush="#FF0426FF" Foreground="#FF0023FF" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" RenderTransformOrigin="0.5,0.5">
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.3" ScaleY="1.3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+        </GroupBox>
+        <GroupBox x:Name="grb_Rare" Header="Rare" HorizontalAlignment="Left" Height="290" Margin="1000,200,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FFFFFF04" Foreground="#FFFFE800" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" RenderTransformOrigin="0.5,0.5">
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.3" ScaleY="1.3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+        </GroupBox>
+        <GroupBox x:Name="grb_Legendary" Header="Legendary" HorizontalAlignment="Left" Height="290" Margin="1400,200,0,0" VerticalAlignment="Top" Width="214" BorderBrush="#FFDE04FF" Foreground="#FFDC00FF" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" RenderTransformOrigin="0.5,0.5">
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.3" ScaleY="1.3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+        </GroupBox>
+        <GroupBox x:Name="grb_CurseDeck" Header="Curse Cards" Margin="1684,0,15,15" BorderBrush="#FFFF0303" Foreground="Red" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" Height="290" VerticalAlignment="Bottom" Width="213">
             <Image x:Name="img_CurseDeck" HorizontalAlignment="Left" Margin="6,-4,-10,0" VerticalAlignment="Top" Source="/PVPlayTool;component/Assets/Shared/tex_CardBack_Curse.png" Width="192"/>
         </GroupBox>
         <Button x:Name="Btn_Help" Margin="19,0,0,14" FontFamily="OptimusPrincepsSemiBold" FontSize="24" Background="White" Click="Btn_Help_Click" BorderBrush="White" BorderThickness="3" Template="{DynamicResource ImageButton}" Cursor="Hand" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Bottom">
@@ -22,7 +58,7 @@
         </Button>
         <TextBlock x:Name="txt_Help" HorizontalAlignment="Left" Margin="15,0,0,121" TextWrapping="Wrap" Text="Help" Foreground="#FFDEDEDE" FontSize="36" Width="107" FontFamily="OptimusPrincepsSemiBold" TextAlignment="Center" TextDecorations="Underline" Height="42" VerticalAlignment="Bottom"/>
         <TextBlock x:Name="Txt_RagsToRiches" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Rags To Riches" VerticalAlignment="Top" FontSize="72" FontFamily="OptimusPrincepsSemiBold" Foreground="#FFDEDEDE" TextDecorations="Underline"/>
-        <Button x:Name="btn_Reset" HorizontalAlignment="Left" Margin="836,807,0,0" VerticalAlignment="Top" Width="428" Height="212" Cursor="Hand" Template="{DynamicResource ImageButton}">
+        <Button x:Name="btn_Reset" HorizontalAlignment="Left" Margin="836,807,0,30" Width="428" Cursor="Hand" Template="{DynamicResource ImageButton}" Click="ResetLoot">
             <Image x:Name="img_Bonfire" Source="/PVPlayTool;component/Assets/Shared/tex_Bonfire.png" Width="420" Height="200"/>
         </Button>
     </Grid>
