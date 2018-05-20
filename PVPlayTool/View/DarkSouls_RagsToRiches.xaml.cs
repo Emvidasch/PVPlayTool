@@ -15,6 +15,14 @@ using PVPlayTool.Model;
 
 namespace PVPlayTool.View
 {
+    public enum ERewardType
+    {
+        RING,
+        WEAPON,
+        ARMOUR,
+        ITEM,
+        SPELL
+    }
     /// <summary>
     /// Interaction logic for DarkSouls_RagsToRiches.xaml
     /// </summary>
@@ -29,6 +37,7 @@ namespace PVPlayTool.View
         public List<DaS_Spell> SpellRewardList;
 
         public List<DaS_Curse> CurseList;
+        public Random RNG;
 
         public DarkSouls_RagsToRiches(DarkSouls_RagsToRiches_Intro parent, bool useBuild)
         {
@@ -40,6 +49,9 @@ namespace PVPlayTool.View
 
             //Load Rewards
             LoadRewards(useBuild);
+
+            //Load RNG
+            RNG = new Random();
         }
 
         private void OnRagsToRichesClosed(object sender, EventArgs e)
@@ -49,6 +61,9 @@ namespace PVPlayTool.View
 
         private void Img_CreateRewardCard_Click(object sender, MouseButtonEventArgs e)
         {
+            // Clear previous cards
+            ResetLoot();
+
             //Roll for rarity of the draw.
             // Legendary = 10%
             // Rare = 25%
@@ -98,110 +113,112 @@ namespace PVPlayTool.View
         }
         private RewardCard DrawReward(ERarity.Rarity rarity)
         {
-            //Roll for type of reward.
-            //Ring = 25%
-            //Spell = 50%
-            //Weapon = 50%
-            //Armour = 75%
-            //Item = 100% (if all else fails)
-
-            //Roll for Ring
-            if(DiceRoll(25,512))
+            //Select random type of reward.
+            ERewardType type;
+            if(SpellRewardList.Count > 0)
             {
-                //Create a list to hold all eligible rewards
-                List<DaS_Ring> rings = new List<DaS_Ring>();
-
-                //Select the reward that has the rarity and add it to a list
-                var ringsRarity = from r in RingRewardList where r.Rarity == rarity select r;
-                foreach(var r in ringsRarity)
-                {
-                    rings.Add(r);
-                }
-                //Pick a random item from that list.
-                Random rand = new Random();
-                int i = (rand.Next()) % rings.Count();
-
-                DaS_Ring ring = rings[i];
-                return new RewardCard(ring);
+                type = (ERewardType)(RNG.Next() % 5);
             }
-            //Roll for Spell
-            else if(DiceRoll(50,512) && SpellRewardList.Count > 0)
-            {
-                //Create a list to hold all eligible rewards
-                List<DaS_Spell> spells = new List<DaS_Spell>();
-
-                //Select the reward that has the rarity and add it to a list
-                var spellsRarity = from s in SpellRewardList where s.Rarity == rarity select s;
-                foreach (var s in spellsRarity)
-                {
-                    spells.Add(s);
-                }
-                //Pick a random item from that list.
-                Random rand = new Random();
-                int i = (rand.Next()) % spells.Count();
-
-                DaS_Spell spell = spells[i];
-                return new RewardCard(spell);
-            }
-            //Roll for Weapon
-            else if(DiceRoll(50,512))
-            {
-                //Create a list to hold all eligible rewards
-                List<DaS_Weapon> weapons = new List<DaS_Weapon>();
-
-                //Select the reward that has the rarity and add it to a list
-                var weaponsRarity = from w in WeaponRewardList where w.Rarity == rarity select w;
-                foreach (var w in weaponsRarity)
-                {
-                    weapons.Add(w);
-                }
-                //Pick a random item from that list.
-                Random rand = new Random();
-                int i = (rand.Next()) % weapons.Count();
-
-                DaS_Weapon weapon = weapons[i];
-                return new RewardCard(weapon);
-            }
-            //Roll for Armour
-            else if(DiceRoll(75,512))
-            {
-                //Create a list to hold all eligible rewards
-                List<DaS_Armour> armours = new List<DaS_Armour>();
-
-                //Select the reward that has the rarity and add it to a list
-                var armourRarity = from a in ArmourRewardList where a.Rarity == rarity select a;
-                foreach (var a in armourRarity)
-                {
-                    armours.Add(a);
-                }
-                //Pick a random item from that list.
-                Random rand = new Random();
-                int i = (rand.Next()) % armours.Count();
-
-                DaS_Armour armour = armours[i];
-                return new RewardCard(armour);
-            }
-            //Pick an item
             else
             {
-                //Create a list to hold all eligible rewards
-                List<DaS_Item> items = new List<DaS_Item>();
-
-                //Select the reward that has the rarity and add it to a list
-                var itemsRarity = from i in ItemRewardList where i.Rarity == rarity select i;
-                foreach (var i in itemsRarity)
-                {
-                    items.Add(i);
-                }
-                //Pick a random item from that list.
-                Random rand = new Random();
-                int j = (rand.Next()) % items.Count();
-
-                DaS_Item item = items[j];
-                return new RewardCard(item);
+                type = (ERewardType)(RNG.Next() % 4);
             }
+            
+            switch (type)
+            {
+                case ERewardType.RING:
+                    //Create a list to hold all eligible rewards
+                    List<DaS_Ring> rings = new List<DaS_Ring>();
 
+                    //Select the reward that has the rarity and add it to a list
+                    var ringsRarity = from r in RingRewardList where r.Rarity == rarity select r;
+                    foreach (var r in ringsRarity)
+                    {
+                        rings.Add(r);
+                    }
+                    //Pick a random item from that list.
+                    int i = (RNG.Next()) % rings.Count();
 
+                    DaS_Ring ring = rings[i];
+                    return new RewardCard(ring);
+
+                case ERewardType.WEAPON:
+                    //Create a list to hold all eligible rewards
+                    List<DaS_Weapon> weapons = new List<DaS_Weapon>();
+
+                    //Select the reward that has the rarity and add it to a list
+                    var weaponsRarity = from w in WeaponRewardList where w.Rarity == rarity select w;
+                    foreach (var w in weaponsRarity)
+                    {
+                        weapons.Add(w);
+                    }
+                    //Pick a random item from that list.
+                    int j = (RNG.Next()) % weapons.Count();
+
+                    DaS_Weapon weapon = weapons[j];
+                    return new RewardCard(weapon);
+                case ERewardType.ARMOUR:
+                    //Create a list to hold all eligible rewards
+                    List<DaS_Armour> armours = new List<DaS_Armour>();
+
+                    //Select the reward that has the rarity and add it to a list
+                    var armourRarity = from a in ArmourRewardList where a.Rarity == rarity select a;
+                    foreach (var a in armourRarity)
+                    {
+                        armours.Add(a);
+                    }
+                    //Pick a random item from that list.
+                    int k = (RNG.Next()) % armours.Count();
+
+                    DaS_Armour armour = armours[k];
+                    return new RewardCard(armour);
+                case ERewardType.ITEM:
+                    //Create a list to hold all eligible rewards
+                    List<DaS_Item> items = new List<DaS_Item>();
+
+                    //Select the reward that has the rarity and add it to a list
+                    var itemsRarity = from it in ItemRewardList where it.Rarity == rarity select it;
+                    foreach (var it in itemsRarity)
+                    {
+                        items.Add(it);
+                    }
+                    //Pick a random item from that list.
+                    int l = (RNG.Next()) % items.Count();
+
+                    DaS_Item item = items[l];
+                    return new RewardCard(item);
+                case ERewardType.SPELL:
+                    //Create a list to hold all eligible rewards
+                    List<DaS_Spell> spells = new List<DaS_Spell>();
+
+                    //Select the reward that has the rarity and add it to a list
+                    var spellsRarity = from s in SpellRewardList where s.Rarity == rarity select s;
+                    foreach (var s in spellsRarity)
+                    {
+                        spells.Add(s);
+                    }
+                    //Pick a random item from that list.
+                    int m = (RNG.Next()) % spells.Count();
+
+                    DaS_Spell spell = spells[m];
+                    return new RewardCard(spell);
+
+                default:
+                    //Create a list to hold all eligible rewards
+                    List<DaS_Item> defaultItems = new List<DaS_Item>();
+
+                    //Select the reward that has the rarity and add it to a list
+                    var defaultItemsRarity = from it in ItemRewardList where it.Rarity == rarity select it;
+                    foreach (var it in defaultItemsRarity)
+                    {
+                        defaultItems.Add(it);
+                    }
+                    //Pick a random item from that list.
+                    int n = (RNG.Next()) % defaultItems.Count();
+
+                    DaS_Item defaultItem = defaultItems[n];
+                    return new RewardCard(defaultItem);
+            }
         }
 
         private void Btn_Help_Click(object sender, RoutedEventArgs e)
@@ -214,11 +231,9 @@ namespace PVPlayTool.View
             //Create Dice, Random factor and required roll chance
             double dice = 0.0;
             double chance = chanceLimit / 100 * chancePercentage;
-            Random rand = new Random();
-
 
             //Roll dice and check result
-            dice = rand.NextDouble() * (chanceLimit + 1);
+            dice = RNG.NextDouble() * (chanceLimit + 1);
 
             return (dice <= chance);
         }
@@ -279,6 +294,13 @@ namespace PVPlayTool.View
         }
 
         private void ResetLoot(object sender, RoutedEventArgs e)
+        {
+            grb_Common.Content = null;
+            grb_Uncommon.Content = null;
+            grb_Rare.Content = null;
+            grb_Legendary.Content = null;
+        }
+        private void ResetLoot()
         {
             grb_Common.Content = null;
             grb_Uncommon.Content = null;

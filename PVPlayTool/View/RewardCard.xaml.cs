@@ -71,8 +71,6 @@ namespace PVPlayTool.View
         }
         public RewardCard(DaS_Armour armour)
         {
-            InitializeComponent();
-
             ItemRarity = armour.Rarity;
             ItemName = armour.ArmourName;
             ItemDescription = "You have obtained " + armour.ArmourName + ".";

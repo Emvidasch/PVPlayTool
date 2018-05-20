@@ -748,13 +748,13 @@
 		<ImagePath>tex_DaS_Caestus.png</ImagePath>
 	</Weapon>
 	<Weapon>
-		<EquipmentName>Claws</EquipmentName>
+		<EquipmentName>Claw</EquipmentName>
 		<StrReq>6</StrReq>
 		<DexReq>14</DexReq>
 		<IntReq>0</IntReq>
 		<FthReq>0</FthReq>
 		<Rarity>1</Rarity>
-		<ImagePath>tex_DaS_Claws.png</ImagePath>
+		<ImagePath>tex_DaS_Claw.png</ImagePath>
 	</Weapon>
 	<Weapon>
 		<EquipmentName>Dragon Bone Fist</EquipmentName>

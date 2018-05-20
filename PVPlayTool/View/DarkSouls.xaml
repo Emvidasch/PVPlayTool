@@ -10,7 +10,7 @@
         MaxHeight="720"
         MaxWidth="1280"
         Title="PVPlayTool - Dark Souls" Height="720" Width="1280" Background="#FF212121" Closed="OnDarkSoulsClose">
-    <Grid>
+    <Grid x:Name="grd_DarkSouls">
         <TextBlock HorizontalAlignment="Left" Height="29" Margin="1091.5,510,0,0" TextWrapping="Wrap" Text="Build Editor" VerticalAlignment="Top" Width="156.5" Foreground="#FFDEDEDE" TextAlignment="Center" FontSize="24" TextDecorations="{x:Null}" FontFamily="OptimusPrincepsSemiBold"/>
         <Button x:Name="btn_BuildEditor" Margin="1108,544,36,17" Template="{DynamicResource ImageButton}" Cursor="Hand" Click="btn_BuildEditor_Click">
             <Image Source="/PVPlayTool;component/Assets/DarkSouls/Icons/tex_DaS_BuildIcon.jpg" Stretch="UniformToFill"/>
