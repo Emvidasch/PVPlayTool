@@ -15,11 +15,12 @@
         <Button x:Name="btn_BuildEditor" Margin="1108,544,36,17" Template="{DynamicResource ImageButton}" Cursor="Hand" Click="btn_BuildEditor_Click">
             <Image Source="/PVPlayTool;component/Assets/DarkSouls/Icons/tex_DaS_BuildIcon.jpg" Stretch="UniformToFill"/>
         </Button>
-        <Button x:Name="btn_Labyrinth" Margin="683,10,24,359" Template="{DynamicResource ImageButton}" Cursor="Hand" Background="#FF212121">
+        <Button x:Name="btn_Labyrinth" Margin="683,10,24,359" Template="{DynamicResource ImageButton}" Cursor="Hand" Background="#FF212121" Opacity="0.5">
             <Image Source="/PVPlayTool;component/Assets/Shared/tex_Labyrinth.jpg"/>
         </Button>
         <Button x:Name="btn_RagsToRiches" Margin="24,10,684,359" Template="{DynamicResource ImageButton}" Cursor="Hand" Background="#FF212121" Click="btn_RagsToRiches_Click">
             <Image Source="/PVPlayTool;component/Assets/Shared/tex_RagsToRiches.jpg"/>
         </Button>
+        <TextBlock x:Name="txt_Labyrinth_WIP" HorizontalAlignment="Left" Height="29" Margin="798,335,0,0" TextWrapping="Wrap" Text="Work in Progress." VerticalAlignment="Top" Width="304" Foreground="#FFDEDEDE" TextAlignment="Center" FontSize="24" TextDecorations="{x:Null}" FontFamily="OptimusPrincepsSemiBold"/>
     </Grid>
 </Window>

@@ -299,6 +299,8 @@ namespace PVPlayTool.View
             grb_Uncommon.Content = null;
             grb_Rare.Content = null;
             grb_Legendary.Content = null;
+
+            grb_Curse.Content = null;
         }
         private void ResetLoot()
         {
@@ -306,6 +308,65 @@ namespace PVPlayTool.View
             grb_Uncommon.Content = null;
             grb_Rare.Content = null;
             grb_Legendary.Content = null;
+
+            grb_Curse.Content = null;
+        }
+
+        private void Img_CreateCurseCard_Click(object sender, MouseButtonEventArgs e)
+        {
+            ResetLoot();
+
+            //Roll for rarity of the draw.
+            // Legendary = 10%
+            // Rare = 25%
+            // Uncommon = 60%
+            // Common = 100%
+
+            bool legendary = false;
+
+            legendary = DiceRoll(10, 512);
+            if(legendary)
+            {
+                grb_Curse.Content = DrawCurse(ERarity.Rarity.LEGENDARY);
+                return;
+            }
+
+            bool rare = false;
+            rare = DiceRoll(25, 512);
+            if(rare)
+            {
+                grb_Curse.Content = DrawCurse(ERarity.Rarity.RARE);
+                return;
+            }
+
+            bool uncommon = false;
+            uncommon = DiceRoll(60, 512);
+            if(uncommon)
+            {
+                grb_Curse.Content = DrawCurse(ERarity.Rarity.UNCOMMON);
+                return;
+            }
+
+            grb_Curse.Content = DrawCurse(ERarity.Rarity.COMMON);
+
+        }
+        private CurseCard DrawCurse(ERarity.Rarity rarity)
+        {
+            //Create an empty Curse List
+            List<DaS_Curse> curses = new List<DaS_Curse>();
+            //Get a list of all curses meeting criteria
+            var cursesRarity = from c in CurseList where c.Rarity == rarity select c;
+
+            foreach(var c in cursesRarity)
+            {
+                curses.Add(c);
+            }
+
+            //Select a curse from the list
+            int i = RNG.Next() % curses.Count;
+            DaS_Curse curse = curses[i];
+
+            return new CurseCard(curse);
         }
     }
 }

@@ -56,3 +56,5 @@ C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSo
 C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Help.baml
 C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Intro.baml
 C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\RewardCard.baml
+C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\CurseCard.g.cs
+C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\CurseCard.baml

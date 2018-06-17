@@ -81,6 +81,9 @@
     <Compile Include="View\DarkSouls_RagsToRiches_Intro.xaml.cs">
       <DependentUpon>DarkSouls_RagsToRiches_Intro.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\CurseCard.xaml.cs">
+      <DependentUpon>CurseCard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\RewardCard.xaml.cs">
       <DependentUpon>RewardCard.xaml</DependentUpon>
     </Compile>
@@ -119,6 +122,10 @@
     <Page Include="View\DarkSouls_RagsToRiches_Intro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CurseCard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="View\RewardCard.xaml">
       <SubType>Designer</SubType>
@@ -756,6 +763,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\DarkSouls\Weapons\tex_DaS_DemonsSpear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Shared\tex_Curse.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

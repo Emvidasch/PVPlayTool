@@ -74,7 +74,7 @@
             </GroupBox.RenderTransform>
         </GroupBox>
         <GroupBox x:Name="grb_CurseDeck" Header="Curse Cards" BorderBrush="#FFFF0303" Foreground="Red" FontFamily="OptimusPrinceps" FontSize="20" BorderThickness="2" Grid.Column="5" Grid.Row="2" Margin="52,5" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
-            <Image x:Name="img_CurseDeck" Source="/PVPlayTool;component/Assets/Shared/tex_CardBack_Curse.png" Width="192" Height="256"/>
+            <Image x:Name="img_CurseDeck" Source="/PVPlayTool;component/Assets/Shared/tex_CardBack_Curse.png" Width="192" Height="256" Stretch="Fill" Cursor="Hand" MouseDown="Img_CreateCurseCard_Click"/>
         </GroupBox>
         <Button x:Name="Btn_Help" Margin="19,0,0,14" FontFamily="OptimusPrincepsSemiBold" FontSize="24" Background="White" Click="Btn_Help_Click" BorderBrush="White" BorderThickness="3" Template="{DynamicResource ImageButton}" Cursor="Hand" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Bottom" Grid.Row="2">
             <Image x:Name="img_Help" Source="/PVPlayTool;component/Assets/Shared/tex_Help.png" Margin="-17,-19,-19,-18" Width="85" Height="85"/>
@@ -83,7 +83,7 @@
         <Viewbox Grid.ColumnSpan="2" Stretch="Fill">
             <TextBlock x:Name="Txt_RagsToRiches" TextWrapping="Wrap" Text="Rags To Riches" FontSize="72" FontFamily="OptimusPrincepsSemiBold" Foreground="#FFDEDEDE" TextDecorations="Underline" Height="120" Width="638"/>
         </Viewbox>
-        <Button x:Name="btn_Reset" Cursor="Hand" Template="{DynamicResource ImageButton}" Click="ResetLoot" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="108,55" Height="200">
+        <Button x:Name="btn_Reset" Cursor="Hand" Template="{DynamicResource ImageButton}" Click="ResetLoot" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="108,0,108,55" Height="200" VerticalAlignment="Bottom">
             <Image x:Name="img_Bonfire" Source="/PVPlayTool;component/Assets/Shared/tex_Bonfire.png" Width="420" Height="200"/>
         </Button>
     </Grid>

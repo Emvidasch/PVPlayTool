@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/darksouls/weapons/tex_das_demonsspear.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/shared/donations.png")]
 
 
