@@ -58,3 +58,35 @@ C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSo
 C:\Users\MennovdHeijden\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\RewardCard.baml
 C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\CurseCard.g.cs
 C:\Users\Menno\source\repos\PVPlayTool\PVPlayTool\obj\Debug\View\CurseCard.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\bin\Debug\PVPlayTool.exe.config
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\bin\Debug\PVPlayTool.exe
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\bin\Debug\PVPlayTool.pdb
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.csproj.AssemblyReference.cache
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.csproj.SuggestedBindingRedirects.cache
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\MainWindow.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_BuildEditor.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Help.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Intro.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\CurseCard.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\RewardCard.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\App.g.cs
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool_MarkupCompile.cache
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool_MarkupCompile.lref
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\App.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\MainWindow.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPTDictionary.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_BuildEditor.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Help.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\DarkSouls_RagsToRiches_Intro.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\CurseCard.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\View\RewardCard.baml
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.g.resources
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.Properties.Resources.resources
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.csproj.GenerateResource.cache
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.csproj.CoreCompileInputs.cache
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.exe
+E:\Users\Menno\Documents\Personal Projects\Mods\PVPlayTool\PVPlayTool\obj\Debug\PVPlayTool.pdb
